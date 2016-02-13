@@ -24,12 +24,12 @@ public class PlayerController : MonoBehaviour {
     {
         if (kickLeft)
         {
-            myRigidBody.AddForce(new Vector2(verticalForce, 0));
+            myRigidBody.AddForce(new Vector2(verticalForce, horizontalForce));
         }
 
         if (kickRight)
         {
-            myRigidBody.AddForce(new Vector2(-verticalForce, 0));
+            myRigidBody.AddForce(new Vector2(-verticalForce, horizontalForce));
         }
 
         if (kickUp)
