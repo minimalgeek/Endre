@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour {
 
@@ -8,15 +9,47 @@ public class PlayerController : MonoBehaviour {
     private bool kickRight;
     private bool kickUp;
 
+    private GameObject leftPanel;
+    private GameObject rightPanel;
+
+    private float panelCoolDownTime = 0.1f;
+    private float leftCoolDown, rightCoolDown;
+    
+
     public int verticalForce;
     public int horizontalForce;
 
 	void Start () {
         myRigidBody = GameObject.Find("Body").GetComponent<Rigidbody2D>();
+
+        leftPanel = GameObject.Find("LeftPanel");
+        rightPanel = GameObject.Find("RightPanel");
+
+        leftPanel.SetActive(false);
+        rightPanel.SetActive(false);
     }
 	
 	
 	void Update () {
+        float dt = Time.deltaTime;
+
+        if (leftCoolDown > 0)
+        {
+            leftCoolDown -= dt;
+        } else
+        {
+            leftPanel.SetActive(false);
+        }
+
+        if (rightCoolDown > 0)
+        {
+            rightCoolDown -= dt;
+        }
+        else
+        {
+            rightPanel.SetActive(false);
+        }
+
         HandleInput();
 	}
 
@@ -67,12 +100,18 @@ public class PlayerController : MonoBehaviour {
         if (pos.x < Screen.width / 2)
         {
             kickLeft = true;
+
+            leftPanel.SetActive(true);
+            leftCoolDown = panelCoolDownTime;
         } else
         {
             kickRight = true;
+
+            rightPanel.SetActive(true);
+            rightCoolDown = panelCoolDownTime;
         }
 
-        if (pos.y < Screen.height / 4)
+        if (pos.y < Screen.height / 5)
         {
             kickUp = true;
         }
