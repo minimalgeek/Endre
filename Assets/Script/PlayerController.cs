@@ -64,11 +64,6 @@ public class PlayerController : MonoBehaviour {
             myRigidBody.AddRelativeForce(new Vector2(-horizontalForce, verticalForce));
         }
 
-        if (kickUp)
-        {
-            myRigidBody.AddRelativeForce(new Vector2(0, verticalForce));
-        }
-
         ResetValues();
     }
 
@@ -108,11 +103,6 @@ public class PlayerController : MonoBehaviour {
 
             rightPanel.SetActive(true);
             rightCoolDown = panelCoolDownTime;
-        }
-
-        if (pos.y < Screen.height / 5)
-        {
-            kickUp = true;
         }
     }
 
