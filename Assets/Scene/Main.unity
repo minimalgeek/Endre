@@ -130,7 +130,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: -0.28}
   serializedVersion: 2
-  m_Size: {x: 0.85, y: 2}
+  m_Size: {x: 0.85, y: 1.8}
 --- !u!233 &93798642
 HingeJoint2D:
   m_ObjectHideFlags: 0
@@ -413,7 +413,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   verticalForce: 300
-  horizontalForce: 500
+  horizontalForce: 800
 --- !u!1 &613710275
 GameObject:
   m_ObjectHideFlags: 0
@@ -835,7 +835,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 6132964, guid: d8af56c8e41877b4cbd04d089dedb381, type: 2}
       propertyPath: m_Size.y
-      value: 2
+      value: 1.8
       objectReference: {fileID: 0}
     - target: {fileID: 6132964, guid: d8af56c8e41877b4cbd04d089dedb381, type: 2}
       propertyPath: m_Offset.y
@@ -1065,7 +1065,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: -0.28}
   serializedVersion: 2
-  m_Size: {x: 0.85, y: 2}
+  m_Size: {x: 0.85, y: 1.8}
 --- !u!233 &1238061524
 HingeJoint2D:
   m_ObjectHideFlags: 0
@@ -2031,7 +2031,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 6132964, guid: d8af56c8e41877b4cbd04d089dedb381, type: 2}
       propertyPath: m_Size.y
-      value: 2
+      value: 1.8
       objectReference: {fileID: 0}
     - target: {fileID: 6132964, guid: d8af56c8e41877b4cbd04d089dedb381, type: 2}
       propertyPath: m_Offset.y
