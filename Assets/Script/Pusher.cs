@@ -24,8 +24,8 @@ public class Pusher : MonoBehaviour {
 
         if (timeCounter <= 0)
         {
-            int direction = Random.Range(0, 1) < 0.5 ? -1 : 1;
-            myRigidBody.AddRelativeForce(new Vector2(direction* initialHorizontalForce, verticalForce));
+            int direction = Random.Range(0, 2) == 0 ? -1 : 1;
+            myRigidBody.AddRelativeForce(new Vector2(direction * initialHorizontalForce, verticalForce));
             timeCounter = forceApplyTime;
             initialHorizontalForce += horizontalForceIncrement;
         }

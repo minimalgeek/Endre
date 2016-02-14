@@ -7,7 +7,6 @@ public class PlayerController : MonoBehaviour {
     private Rigidbody2D myRigidBody;
     private bool kickLeft;
     private bool kickRight;
-    private bool kickUp;
 
     private GameObject leftPanel;
     private GameObject rightPanel;
@@ -110,7 +109,6 @@ public class PlayerController : MonoBehaviour {
     {
         kickLeft = false;
         kickRight = false;
-        kickUp = false;
     }
     
 }
