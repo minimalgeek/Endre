@@ -15,7 +15,6 @@ public class PlayerController : MonoBehaviour {
     private float panelCoolDownTime = 0.1f;
     private float leftCoolDown, rightCoolDown;
     
-
     public int verticalForce;
     public int horizontalForce;
 
@@ -57,17 +56,17 @@ public class PlayerController : MonoBehaviour {
     {
         if (kickLeft)
         {
-            myRigidBody.AddForce(new Vector2(verticalForce, horizontalForce));
+            myRigidBody.AddRelativeForce(new Vector2(horizontalForce, verticalForce));
         }
 
         if (kickRight)
         {
-            myRigidBody.AddForce(new Vector2(-verticalForce, horizontalForce));
+            myRigidBody.AddRelativeForce(new Vector2(-horizontalForce, verticalForce));
         }
 
         if (kickUp)
         {
-            myRigidBody.AddForce(new Vector2(0, horizontalForce));
+            myRigidBody.AddRelativeForce(new Vector2(0, verticalForce));
         }
 
         ResetValues();
