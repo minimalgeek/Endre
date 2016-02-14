@@ -15,4 +15,9 @@ public class SceneLoader : MonoBehaviour {
     {
         Application.LoadLevel("Main");
     }
+
+    public void LoadMenu()
+    {
+        Application.LoadLevel("Menu");
+    }
 }
