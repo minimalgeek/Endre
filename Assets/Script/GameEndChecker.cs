@@ -30,8 +30,7 @@ public class GameEndChecker : MonoBehaviour {
 
     void OnCollisionEnter2D(Collision2D coll)
     {
-
-        if (coll.gameObject.tag == "PlayerHead")
+        if (coll.gameObject.tag == "EndGameCollider")
         {
             ifYouAreDrunkDontSingPanel.SetActive(true);
             failed = true;

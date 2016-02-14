@@ -352,42 +352,16 @@ MonoBehaviour:
   initialHorizontalForce: 500
   horizontalForceIncrement: 100
   forceApplyTime: 2
---- !u!1 &419017990
+--- !u!1 &470778954 stripped
 GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 419017991}
-  - 61: {fileID: 419017993}
-  - 114: {fileID: 419017992}
-  - 50: {fileID: 419017994}
-  m_Layer: 0
-  m_Name: EndCheckerPlatform
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
---- !u!4 &419017991
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 419017990}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 3.34, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1671736958}
-  m_RootOrder: 3
---- !u!114 &419017992
+  m_PrefabParentObject: {fileID: 110626, guid: 8f014995315503d4a8f07e7b31de3169, type: 2}
+  m_PrefabInternal: {fileID: 1880415477}
+--- !u!114 &470778960
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 419017990}
+  m_GameObject: {fileID: 470778954}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 44f30fc2446a3b54dbc7599439edd828, type: 3}
@@ -395,37 +369,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ifYouAreDrunkDontSingPanel: {fileID: 1179599367}
   countDownUntilMain: 3
---- !u!61 &419017993
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 419017990}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 18, y: 0.5}
---- !u!50 &419017994
-Rigidbody2D:
-  serializedVersion: 2
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 419017990}
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!1 &667345373
 GameObject:
   m_ObjectHideFlags: 0
@@ -509,10 +452,9 @@ GameObject:
   - 4: {fileID: 875839190}
   - 61: {fileID: 875839192}
   - 50: {fileID: 875839191}
-  - 114: {fileID: 875839193}
   m_Layer: 0
-  m_Name: PlatformLeft
-  m_TagString: Untagged
+  m_Name: LeftPlatform
+  m_TagString: EndGameCollider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -560,19 +502,6 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Size: {x: 11, y: 0.5}
---- !u!114 &875839193
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 875839189}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 44f30fc2446a3b54dbc7599439edd828, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ifYouAreDrunkDontSingPanel: {fileID: 1179599367}
-  countDownUntilMain: 3
 --- !u!1 &1141957855
 GameObject:
   m_ObjectHideFlags: 0
@@ -977,7 +906,6 @@ Transform:
   - {fileID: 1458210954}
   - {fileID: 875839190}
   - {fileID: 1968454907}
-  - {fileID: 419017991}
   m_Father: {fileID: 0}
   m_RootOrder: 4
 --- !u!1001 &1880415477
@@ -1021,11 +949,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11430916, guid: 8f014995315503d4a8f07e7b31de3169, type: 2}
       propertyPath: verticalForce
-      value: 100
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 11430916, guid: 8f014995315503d4a8f07e7b31de3169, type: 2}
       propertyPath: horizontalForce
-      value: 300
+      value: 350
       objectReference: {fileID: 0}
     - target: {fileID: 6105986, guid: 8f014995315503d4a8f07e7b31de3169, type: 2}
       propertyPath: m_Size.y
@@ -1047,6 +975,10 @@ Prefab:
       propertyPath: m_TagString
       value: PlayerHead
       objectReference: {fileID: 0}
+    - target: {fileID: 25550474, guid: 8f014995315503d4a8f07e7b31de3169, type: 2}
+      propertyPath: m_Frequency
+      value: 1.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8f014995315503d4a8f07e7b31de3169, type: 2}
   m_IsPrefabParent: 0
@@ -1060,10 +992,9 @@ GameObject:
   - 4: {fileID: 1968454907}
   - 61: {fileID: 1968454909}
   - 50: {fileID: 1968454908}
-  - 114: {fileID: 1968454910}
   m_Layer: 0
-  m_Name: PlatformRight
-  m_TagString: Untagged
+  m_Name: RightPlatform
+  m_TagString: EndGameCollider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -1111,19 +1042,6 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Size: {x: 11, y: 0.5}
---- !u!114 &1968454910
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1968454906}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 44f30fc2446a3b54dbc7599439edd828, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ifYouAreDrunkDontSingPanel: {fileID: 1179599367}
-  countDownUntilMain: 3
 --- !u!1 &2029310503
 GameObject:
   m_ObjectHideFlags: 0
