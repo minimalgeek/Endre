@@ -27,6 +27,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 448206}
   - 114: {fileID: 11430916}
+  - 114: {fileID: 11481554}
   m_Layer: 0
   m_Name: Endre
   m_TagString: Untagged
@@ -46,9 +47,10 @@ GameObject:
   - 50: {fileID: 5024964}
   - 255: {fileID: 25550474}
   - 61: {fileID: 6115826}
+  - 114: {fileID: 11439122}
   m_Layer: 0
   m_Name: Head
-  m_TagString: Untagged
+  m_TagString: PlayerHead
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -169,6 +171,7 @@ GameObject:
   - 50: {fileID: 5072654}
   - 61: {fileID: 6105986}
   - 233: {fileID: 23321316}
+  - 58: {fileID: 5896908}
   m_Layer: 0
   m_Name: Down
   m_TagString: Untagged
@@ -253,6 +256,7 @@ GameObject:
   - 50: {fileID: 5096688}
   - 61: {fileID: 6133502}
   - 233: {fileID: 23357164}
+  - 58: {fileID: 5862762}
   m_Layer: 0
   m_Name: Down
   m_TagString: Untagged
@@ -656,6 +660,34 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!58 &5862762
+CircleCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 187010}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: -0.41}
+  serializedVersion: 2
+  m_Radius: 0.87
+--- !u!58 &5896908
+CircleCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 168078}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: -0.41}
+  serializedVersion: 2
+  m_Radius: 0.87
 --- !u!61 &6105986
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -667,9 +699,9 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_Offset: {x: 0, y: -0.28}
+  m_Offset: {x: 0, y: 0.04}
   serializedVersion: 2
-  m_Size: {x: 0.85, y: 1.8}
+  m_Size: {x: 0.85, y: 1.16}
 --- !u!61 &6115826
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -723,9 +755,9 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_Offset: {x: 0, y: -0.28}
+  m_Offset: {x: 0, y: 0.04}
   serializedVersion: 2
-  m_Size: {x: 0.85, y: 1.8}
+  m_Size: {x: 0.85, y: 1.16}
 --- !u!61 &6142930
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -779,8 +811,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e945fe96b9a3b6246b168680ae4fe505, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  verticalForce: 300
-  horizontalForce: 800
+  verticalForce: 200
+  horizontalForce: 370
+--- !u!114 &11439122
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 110626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44f30fc2446a3b54dbc7599439edd828, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ifYouAreDrunkDontSingPanel: {fileID: 0}
+  countDownUntilMain: 3
+--- !u!114 &11481554
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 107558}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b2280f3ffa63844bbf5ad5a2ac0adca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  verticalForce: 0
+  initialHorizontalForce: 500
+  horizontalForceIncrement: 100
+  forceApplyTime: 2
 --- !u!212 &21205968
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -1178,8 +1238,8 @@ HingeJoint2D:
     m_MaximumMotorForce: 10000
   m_UseLimits: 1
   m_AngleLimits:
-    m_LowerAngle: 30
-    m_UpperAngle: -30
+    m_LowerAngle: 20
+    m_UpperAngle: -20
 --- !u!233 &23354676
 HingeJoint2D:
   m_ObjectHideFlags: 1
@@ -1224,8 +1284,8 @@ HingeJoint2D:
     m_MaximumMotorForce: 10000
   m_UseLimits: 1
   m_AngleLimits:
-    m_LowerAngle: 30
-    m_UpperAngle: -30
+    m_LowerAngle: 20
+    m_UpperAngle: -20
 --- !u!233 &23359352
 HingeJoint2D:
   m_ObjectHideFlags: 1
@@ -1311,7 +1371,7 @@ FixedJoint2D:
   m_Anchor: {x: 0, y: -0.88}
   m_ConnectedAnchor: {x: 0.028183328, y: 1.88}
   m_DampingRatio: 0.8
-  m_Frequency: 2
+  m_Frequency: 1.5
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
