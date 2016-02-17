@@ -83,17 +83,20 @@ public class BeerSpawner : MonoBehaviour {
         }
     }
 
-    private void CheckTouch(Vector2 pos)
+    private void CheckTouch(Vector2 touchPos)
     {
-        SideGroup group = pos.x < Screen.width / 2 ? left : right;
+        SideGroup group = touchPos.x < Screen.width / 2 ? left : right;
         group.Fire();
-        InitBottle(group);
+        InitBottle(group, touchPos);
     }
 
-    private void InitBottle(SideGroup group) {
+    private void InitBottle(SideGroup group, Vector2 touchPos) {
+        Vector2 posInit = group.spawner.transform.position;
+        posInit.y = Camera.main.ScreenToWorldPoint(touchPos).y;
+
         GameObject instantiated = (GameObject)Instantiate(
             objectToSpawn,
-            group.spawner.transform.position,
+            posInit,
             Quaternion.identity);
 
         Destroy(instantiated, destroyTime);

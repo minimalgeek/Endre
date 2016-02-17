@@ -1,0 +1,263 @@
+fileFormatVersion: 2
+guid: 0a103c015d36b614ead8fff09a8de261
+timeCreated: 1455743297
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: gitaros2_sprite_0
+    21300002: gitaros2_sprite_1
+    21300004: gitaros2_sprite_2
+    21300006: gitaros2_sprite_3
+    21300008: gitaros2_sprite_4
+    21300010: gitaros2_sprite_5
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 150
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: gitaros2_sprite_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2600
+        width: 1155.5
+        height: 1300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 162.5, y: -303.16675}
+        - {x: 166.5, y: -300.16675}
+        - {x: 166.5, y: -257.16675}
+        - {x: 132.5, y: -113.16675}
+        - {x: 125.5, y: 24.833252}
+        - {x: 72.5, y: 49.833252}
+        - {x: 16.5, y: 67.83325}
+        - {x: -69.5, y: 135.83325}
+        - {x: -93.5, y: 135.83325}
+        - {x: -95.5, y: 134.83325}
+        - {x: -112.5, y: 89.83325}
+        - {x: -118.5, y: 44.833252}
+        - {x: -124.5, y: -32.166748}
+        - {x: -133.5, y: -44.166748}
+        - {x: -133.5, y: -80.16675}
+        - {x: -81.5, y: -119.16675}
+        - {x: -1.5, y: -142.16675}
+        - {x: -34.5, y: -278.16675}
+        - {x: -30.5, y: -302.16675}
+        - {x: -26.5, y: -303.16675}
+        - {x: 25.5, y: -303.16675}
+        - {x: 55.5, y: -203.16675}
+        - {x: 105.5, y: -286.16675}
+        - {x: 117.5, y: -303.16675}
+    - name: gitaros2_sprite_1
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 2600
+        width: 1155.5
+        height: 1300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 164.52307, y: -304.16675}
+        - {x: 169.52307, y: -299.16675}
+        - {x: 169.52307, y: -251.16675}
+        - {x: 125.52307, y: -132.16675}
+        - {x: 131.52307, y: -4.166748}
+        - {x: 82.52307, y: 35.833252}
+        - {x: 14.523071, y: 35.833252}
+        - {x: -31.476929, y: -11.166748}
+        - {x: -119.47693, y: -42.166748}
+        - {x: -134.47693, y: -55.166748}
+        - {x: -134.47693, y: -88.16675}
+        - {x: -72.47693, y: -137.16675}
+        - {x: 0.5230713, y: -144.16675}
+        - {x: -33.47693, y: -280.16675}
+        - {x: -26.476929, y: -304.16675}
+        - {x: 23.523071, y: -304.16675}
+        - {x: 34.52307, y: -277.16675}
+        - {x: 66.52307, y: -200.16675}
+        - {x: 115.52307, y: -304.16675}
+    - name: gitaros2_sprite_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1300
+        width: 1155.5
+        height: 1300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 167.5, y: -230.33337}
+        - {x: 127.5, y: -125.333374}
+        - {x: 128.5, y: -4.333374}
+        - {x: 86.5, y: 38.666626}
+        - {x: 33.5, y: 38.666626}
+        - {x: -21.5, y: 9.666626}
+        - {x: -80.5, y: -53.333374}
+        - {x: -118.5, y: -46.333374}
+        - {x: -132.5, y: -52.333374}
+        - {x: -132.5, y: -89.333374}
+        - {x: -9.5, y: -140.33337}
+        - {x: -32.5, y: -233.33337}
+        - {x: -31.5, y: -304.33337}
+        - {x: 25.5, y: -304.33337}
+        - {x: 48.5, y: -202.33337}
+        - {x: 117.5, y: -304.33337}
+        - {x: 167.5, y: -304.33337}
+    - name: gitaros2_sprite_3
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 1300
+        width: 1155.5
+        height: 1300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 162.52307, y: -304.33337}
+        - {x: 184.52307, y: -294.33337}
+        - {x: 130.52307, y: -130.33337}
+        - {x: 125.52307, y: -73.333374}
+        - {x: 211.52307, y: -164.33337}
+        - {x: 228.52307, y: -114.333374}
+        - {x: 228.52307, y: -80.333374}
+        - {x: 227.52307, y: -60.333374}
+        - {x: 173.52307, y: 19.666626}
+        - {x: 95.52307, y: 43.666626}
+        - {x: 28.523071, y: 43.666626}
+        - {x: -81.47693, y: -36.333374}
+        - {x: -132.47693, y: -43.333374}
+        - {x: -132.47693, y: -90.333374}
+        - {x: -12.476929, y: -145.33337}
+        - {x: -33.47693, y: -287.33337}
+        - {x: -24.476929, y: -304.33337}
+        - {x: 20.523071, y: -304.33337}
+        - {x: 31.523071, y: -289.33337}
+        - {x: 87.52307, y: -243.33337}
+        - {x: 113.52307, y: -304.33337}
+      - - {x: -192.47693, y: -139.33337}
+        - {x: -194.47693, y: -140.33337}
+        - {x: -195.47693, y: -144.33337}
+        - {x: -195.47693, y: -151.33337}
+        - {x: -190.47693, y: -151.33337}
+        - {x: -186.47693, y: -145.33337}
+        - {x: -186.47693, y: -139.33337}
+    - name: gitaros2_sprite_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1155.5
+        height: 1300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 174.5, y: -304.5}
+        - {x: 163.5, y: -229.5}
+        - {x: 115.5, y: -145.5}
+        - {x: 151.5, y: 29.5}
+        - {x: 250.5, y: 50.5}
+        - {x: 252.5, y: 51.5}
+        - {x: 252.5, y: 65.5}
+        - {x: 241.5, y: 91.5}
+        - {x: 206.5, y: 110.5}
+        - {x: 158.5, y: 110.5}
+        - {x: 95.5, y: 99.5}
+        - {x: 31.5, y: 56.5}
+        - {x: -63.5, y: -51.5}
+        - {x: -133.5, y: -42.5}
+        - {x: -133.5, y: -73.5}
+        - {x: -95.5, y: -104.5}
+        - {x: 0.5, y: -164.5}
+        - {x: -23.5, y: -238.5}
+        - {x: -33.5, y: -289.5}
+        - {x: -24.5, y: -304.5}
+        - {x: 20.5, y: -304.5}
+        - {x: 32.5, y: -289.5}
+        - {x: 111.5, y: -304.5}
+    - name: gitaros2_sprite_5
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 0
+        width: 1155.5
+        height: 1300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 164.52307, y: -304.5}
+        - {x: 169.52307, y: -297.5}
+        - {x: 169.52307, y: -270.5}
+        - {x: 156.52307, y: -237.5}
+        - {x: 118.52307, y: -148.5}
+        - {x: 128.52307, y: -26.5}
+        - {x: 91.52307, y: 127.5}
+        - {x: 119.52307, y: 203.5}
+        - {x: 66.52307, y: 203.5}
+        - {x: 24.523071, y: 179.5}
+        - {x: -7.4769287, y: 81.5}
+        - {x: -2.4769287, y: 10.5}
+        - {x: -116.47693, y: -48.5}
+        - {x: -127.47693, y: -51.5}
+        - {x: -131.47693, y: -56.5}
+        - {x: -131.47693, y: -79.5}
+        - {x: -84.47693, y: -119.5}
+        - {x: -20.476929, y: -131.5}
+        - {x: -39.47693, y: -228.5}
+        - {x: -38.47693, y: -304.5}
+        - {x: 32.52307, y: -304.5}
+        - {x: 57.52307, y: -206.5}
+        - {x: 113.52307, y: -304.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
