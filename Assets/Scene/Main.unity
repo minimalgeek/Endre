@@ -195,7 +195,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 4a1062c7c29fac74f9109e9df7cbf897, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 35dd7859352eb97468ffb8dcf26b1d28, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -615,7 +615,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 21300000, guid: 06b0e66d230b8db40b497f0f24e9a9f6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 561b2af850cc2604f9360c0e032e0425, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1329,6 +1329,61 @@ Prefab:
       propertyPath: m_IsKinematic
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 21208792, guid: 8f014995315503d4a8f07e7b31de3169, type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300018, guid: 3b094b886457d8c47a321c079263462d,
+        type: 3}
+    - target: {fileID: 21296286, guid: 8f014995315503d4a8f07e7b31de3169, type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300014, guid: 3b094b886457d8c47a321c079263462d,
+        type: 3}
+    - target: {fileID: 21205968, guid: 8f014995315503d4a8f07e7b31de3169, type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300006, guid: 3b094b886457d8c47a321c079263462d,
+        type: 3}
+    - target: {fileID: 21273228, guid: 8f014995315503d4a8f07e7b31de3169, type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300004, guid: 3b094b886457d8c47a321c079263462d,
+        type: 3}
+    - target: {fileID: 21276134, guid: 8f014995315503d4a8f07e7b31de3169, type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300002, guid: 3b094b886457d8c47a321c079263462d,
+        type: 3}
+    - target: {fileID: 21279614, guid: 8f014995315503d4a8f07e7b31de3169, type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300008, guid: 3b094b886457d8c47a321c079263462d,
+        type: 3}
+    - target: {fileID: 21261104, guid: 8f014995315503d4a8f07e7b31de3169, type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300012, guid: 3b094b886457d8c47a321c079263462d,
+        type: 3}
+    - target: {fileID: 21208888, guid: 8f014995315503d4a8f07e7b31de3169, type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300010, guid: 3b094b886457d8c47a321c079263462d,
+        type: 3}
+    - target: {fileID: 21271800, guid: 8f014995315503d4a8f07e7b31de3169, type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300016, guid: 3b094b886457d8c47a321c079263462d,
+        type: 3}
+    - target: {fileID: 21295432, guid: 8f014995315503d4a8f07e7b31de3169, type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300020, guid: 3b094b886457d8c47a321c079263462d,
+        type: 3}
+    - target: {fileID: 21261928, guid: 8f014995315503d4a8f07e7b31de3169, type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300022, guid: 3b094b886457d8c47a321c079263462d,
+        type: 3}
     m_RemovedComponents:
     - {fileID: 6105986, guid: 8f014995315503d4a8f07e7b31de3169, type: 2}
     - {fileID: 6133502, guid: 8f014995315503d4a8f07e7b31de3169, type: 2}
@@ -1500,7 +1555,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 0a103c015d36b614ead8fff09a8de261, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
