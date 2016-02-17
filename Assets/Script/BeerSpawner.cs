@@ -103,7 +103,7 @@ public class BeerSpawner : MonoBehaviour {
 
         Rigidbody2D body = instantiated.GetComponent<Rigidbody2D>();
         body.AddRelativeForce(new Vector2(group.directionMultiplier * horizontalForce, verticalForce));
-        body.AddTorque(rotationForce);
+        body.AddTorque(group.directionMultiplier * rotationForce);
     }
     
 }

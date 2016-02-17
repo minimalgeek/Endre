@@ -255,9 +255,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToSpawn: {fileID: 175988, guid: ae33691debfb08e4fbaaa6a57fdf741e, type: 2}
   horizontalForce: 1000
-  verticalForce: 0
-  rotationForce: 300
-  destroyTime: 2
+  verticalForce: 300
+  rotationForce: -500
+  destroyTime: 1.5
   left:
     spawner: {fileID: 1466630668}
     panel: {fileID: 195700958}
@@ -1135,7 +1135,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11481554, guid: 8f014995315503d4a8f07e7b31de3169, type: 2}
       propertyPath: verticalForce
-      value: 50
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 11481554, guid: 8f014995315503d4a8f07e7b31de3169, type: 2}
+      propertyPath: horizontalForceIncrement
+      value: 75
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043252, guid: 8f014995315503d4a8f07e7b31de3169, type: 2}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6105986, guid: 8f014995315503d4a8f07e7b31de3169, type: 2}
