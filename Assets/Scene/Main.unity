@@ -983,6 +983,38 @@ Prefab:
       propertyPath: ifYouAreDrunkDontSingPanel
       value: 
       objectReference: {fileID: 1179599367}
+    - target: {fileID: 6122902, guid: 8f014995315503d4a8f07e7b31de3169, type: 2}
+      propertyPath: m_Size.x
+      value: 0.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 6122902, guid: 8f014995315503d4a8f07e7b31de3169, type: 2}
+      propertyPath: m_Size.y
+      value: 1.64
+      objectReference: {fileID: 0}
+    - target: {fileID: 6122902, guid: 8f014995315503d4a8f07e7b31de3169, type: 2}
+      propertyPath: m_Offset.y
+      value: -0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 6122902, guid: 8f014995315503d4a8f07e7b31de3169, type: 2}
+      propertyPath: m_Offset.x
+      value: -0.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 6190138, guid: 8f014995315503d4a8f07e7b31de3169, type: 2}
+      propertyPath: m_Offset.x
+      value: 0.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 6190138, guid: 8f014995315503d4a8f07e7b31de3169, type: 2}
+      propertyPath: m_Offset.y
+      value: -0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 6190138, guid: 8f014995315503d4a8f07e7b31de3169, type: 2}
+      propertyPath: m_Size.x
+      value: 0.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 6190138, guid: 8f014995315503d4a8f07e7b31de3169, type: 2}
+      propertyPath: m_Size.y
+      value: 1.64
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8f014995315503d4a8f07e7b31de3169, type: 2}
   m_IsPrefabParent: 0
