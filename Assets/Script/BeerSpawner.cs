@@ -68,9 +68,12 @@ public class BeerSpawner : MonoBehaviour {
         {
             if (Input.touchCount > 0)
             {
-                if (Input.GetTouch(0).phase == TouchPhase.Began)
+                for (int i = 0; i < Input.touchCount; i++)
                 {
-                    CheckTouch(Input.GetTouch(0).position);
+                    if (Input.GetTouch(i).phase == TouchPhase.Began)
+                    {
+                        CheckTouch(Input.GetTouch(i).position);
+                    }
                 }
             }
         }
