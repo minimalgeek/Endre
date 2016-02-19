@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour {
 
@@ -13,11 +14,11 @@ public class SceneLoader : MonoBehaviour {
 
     public void LoadMain()
     {
-        Application.LoadLevel("Main");
+        SceneManager.LoadScene("Main");
     }
 
     public void LoadMenu()
     {
-        Application.LoadLevel("Menu");
+        SceneManager.LoadScene("Menu");
     }
 }

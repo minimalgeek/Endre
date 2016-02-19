@@ -5,6 +5,7 @@ public class GameEndChecker : MonoBehaviour {
 
     public GameObject ifYouAreDrunkDontSingPanel;
     private SceneLoader sceneLoader;
+    private PointController pointController;
     public float countDownUntilMain;
 
     private bool failed;
@@ -12,6 +13,7 @@ public class GameEndChecker : MonoBehaviour {
 	void Start () {
         ifYouAreDrunkDontSingPanel.SetActive(false);
         sceneLoader = FindObjectOfType<SceneLoader>();
+        pointController = FindObjectOfType<PointController>();
 
         failed = false;
     }
@@ -19,6 +21,8 @@ public class GameEndChecker : MonoBehaviour {
 	void Update () {
 	    if (failed)
         {
+            pointController.DisableCollecting();
+
             countDownUntilMain -= Time.deltaTime;
             if (countDownUntilMain <= 0)
             {

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - PlayerHead
   - EndGameCollider
+  - Result
   layers:
   - Default
   - TransparentFX

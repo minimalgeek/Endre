@@ -6,18 +6,39 @@ public class PointController : MonoBehaviour {
 
     public Text pointText;
     private float points;
+    private bool shouldCollect = true;
 
-	void Start () {
-        points = 0f;
+    private GameData gameData;
+
+    void Awake()
+    {
+        gameData = SaveLoad.Load();
+    }
+
+    void Start () {
+        points = 0;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-        points += Time.deltaTime * 100;
+        if (shouldCollect)
+        {
+            points += (Time.deltaTime * 100);
+        }
 	}
 
     void OnGUI()
     {
         pointText.text = ((int)points).ToString();
+    }
+
+    public void DisableCollecting()
+    {
+        if (shouldCollect)
+        {
+            gameData.TryToAddBestScore((int)points);
+            SaveLoad.Save(gameData);
+        }
+        shouldCollect = false;
     }
 }
