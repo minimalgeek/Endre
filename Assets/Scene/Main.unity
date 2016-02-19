@@ -155,74 +155,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a1f58ee552260148a89163761a5ec03, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &73099480
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 224: {fileID: 73099481}
-  - 222: {fileID: 73099483}
-  - 114: {fileID: 73099482}
-  m_Layer: 5
-  m_Name: ScorePanel
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &73099481
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 73099480}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1271733635}
-  m_Father: {fileID: 224073019}
-  m_RootOrder: 3
-  m_AnchorMin: {x: 0.5, y: 1}
-  m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -50}
-  m_SizeDelta: {x: 250, y: 75}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &73099482
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 73099480}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.54509807, g: 0.45098042, b: 0.34117648, a: 0.953}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
---- !u!222 &73099483
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 73099480}
 --- !u!1 &104333440
 GameObject:
   m_ObjectHideFlags: 0
@@ -493,7 +425,7 @@ RectTransform:
   - {fileID: 195700959}
   - {fileID: 1457521684}
   - {fileID: 1179599368}
-  - {fileID: 73099481}
+  - {fileID: 1271733635}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_AnchorMin: {x: 0, y: 0}
@@ -566,8 +498,8 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 80e150391d36f4547aa5b75b4c11df46, type: 3}
-    m_FontSize: 85
+    m_Font: {fileID: 12800000, guid: cc90bc5c85e3dd74f98fd8256e23bed3, type: 3}
+    m_FontSize: 70
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 5
@@ -639,16 +571,72 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   awardText: {fileID: 667345375}
   awards:
-  - "Ha be vagy baszva, ne \xE9nekelj bazmeg!"
+  - "Lenkedetlen m\xE9ly\xE9n, retnek gy\xFAl\xF6let. Nemkemjehtet\xE9!"
+  - "Szemt\u0151l szembe mondjad, mindent megtehetsz. Olyannak meg \xFAtyohattyel,
+    ahogy semmelyik haver!"
+  - "A sz\xEDv j\xF3katag f\xE9m, \xFAjra \xE9kra k\xE9m, \xFAjra \xE9k!"
+  - "M\xE1s voltam \xE9n m\xE1r, mint gyerek. \xC1st l\xE1ttam, mint a t\xF6bbiek.
+    L\xE1stam mindenre v\xF6lkid\xE1m, szerelmem a m\xE1s villog\xE1ny!"
+  - "\xD3\xF3\xF3 \xF3\xF3\xF3\xF3\xF3 \xF3\xF3\xF3 \xF3\xF3\xF3 \xF3\xF3\xF3\xF3\xF3
+    \xF3\xF3\xF3 mindenki! \xD3\xF3\xF3 \xF3\xF3\xF3\xF3\xF3 \xF3\xF3\xF3 gyer\xFCnk!"
+  - "Im\xE1dlak benneteket! Egy vadonat\xFAj n\xF3taaaaaa az \xFAj lemezhez! Gy\xFAjt\xF3pontbaaaaaan!
+    Gyer\xFCnk! Gyer\xFCnk! Gyer\xFCnk!"
+  - "Gy\u0171l\xF6let! Gy\u0171l\xF6let! Vanded\xE9tet\xE9det a gy\u0171l\xF6let!
+    Tang\xF6l\xE9det...."
+  - "\xC9daporban, \xEDtaporban, vasvonalban Gy\xFAjt\xF3pontban! \xCDgy kell \xE9lnem!!!"
+  - "\xC9szenl\xE9tben, k\xE9zenl\xE9tben, Vad\xE1ll\u0151tten n\xEDg\xE1tj\u0151szlen
+    N\xEDdenl\u0151ten!"
+  - "...ijev\xFC... f\xE1klyal\xE1ng... f\xE1klyal\xE1ng!"
+  - "Ti\xE9d lesz az \xE9let mennyerte' n\xE9led, mint a f\xE1klyal\xE1ng!"
+  - "A gy\u0171jt\xF3pontban c\xEDm\u0171 n\xF3t' lemezr\u0151l, ok\xE9? ok\xE9? gy\xFAjt\xF3pontban,
+    l\u0151t\xE1volban, err\u0151l sz\xF3l az \xFAj n\xF3da! Gyer\xFC\xFC\xFC\xFC\xFC\xFC\xFC\xFC\xFC\xFC\xFCnk!"
+  - "S\xF6riv\xF3 vagyok! S\xF6riv\xF3 vagyok! S\xF6riv\xF3 vagyok! Diszn\xF3!!"
+  - "A fi\xFA m\xE9lyb\u0151l \xE9rkezett, ahol fi\xFA a m\xE9lyb\u0151l \xE9rkezett,
+    ahol fi\xFA a m\xE9lyb\u0151l \xE9rkezett!"
+  - "Ne \xE9nekeej\xE9 ha be vagy baszva ne \xE9nekeej\xE9 bazmeg!"
+  - "L\xE9zengek, t\xE9nfergek \xF3r\xE1kon \xE1t, \xE1rom, hogy j\xF6jj\xF6n egy
+    j\xF3 t\xE1rsas\xE1g. Ittva az ajt\xF3 itt nincs maegh\xEDv\xF3. Ittva az ajt\xF3
+    m\xE1rmegh\xEDv\xF3!"
+  - "Nyitva egy b\xE1rmi b\xE1rh\xF3, egy nyitva egy m\xE1rh\xEDv\xF3! V\xE1rh\xF6nek
+    m\xE1rh\xF3n'. Egy nyitm\xE1kh\xEDv\xF3!"
+  - "Nyidva egy m\xE1rh\xF3d, egy nyitva egy m\xE1rh\xEDv\xF3!"
+  - "Felp\xF6rg\xF6tt \xE9jjel ut\xE1n s\xE1padt hajnalom, t\xE1potut \xFCgyen-uty\xE1n
+    h\xE1padt ajnalom."
+  - "Nem akarok semmit! Hadd halljam! H\xFA\xFA Ez az!"
+  - "Sosem b\xEDrtam, megnyuvadni, a nagyvil\xE1gban akhurravelni. V\xE1rtamberr\xFCl
+    atultatulni, a v\xE1rtam\xE9tben \xE1tkorraduldia."
+  - "Apr\xF3 p\xE9nzre v\xE1ltok \xE1rkit, apr\xF3 p\xE9nzre v\xE1ltok \xE1rmit. Ittattalran
+    megvirrad, ma megvirradni v\xE1rna elhiggad."
+  - UUUU
+  - "... nap mikor megsz\xFClettem, hull\xF3csillag volt az \xE9gen sosem v\xE1rtam..."
+  - "Szors k\xF6nyv\xE9be, p\xE1r sz\xF3, csak ennyi. J\xFAtyanyennyi, m\xE1tykonnyakennyi.
+    Ty\xF3ny."
+  - "Na k\xE9rem ez m\xE9g most volt csak a kezdet, innent\u0151l lesz a buli!"
+  - "Szemsz\xE9l\u0171 l\xE1ny, v\xE1rkor\xF6ngy\xFC v\xE1runk."
+  - "\xC9jf\xE9li l\xE1ny, soksok \xE9ve annak, hogy v\xE1rh\xF3m \xE1k. Kerestem
+    \u0151t, \xFCres csendben, dedemm, dedemm, d\xF6d\xF6nn!"
+  - "\xD6reg rocker vagyok, jajj gyerekek, \xE9n annyira \xF6reg rocker vagyok, testv\xE9rek,
+    egy, jajj."
+  - "Az \xF6reg rokker? J\xF3! Amikor ROCK! Amikor m\xE9g! AAAAAjjjj! Gyer\xFCnk!"
+  - "Amikor m\xE9g, minden nyitva volt. Ajtott a v\xE9r, tudt\xE1l m\xE9rt nem orr!"
+  - "Amikor m\xE9g, volt a bar\xE1ts\xE1g! Nem ugatt\xE1k, l\xE1ncra mert kuty\xE1k!"
+  - "Namehkuv\xE1! Innov\xE1lt kuty\xE1k! V\xE1rtam \xE9n! Innov\xE1lt kuty\xE1k!
+    Gyer\xFCnk!"
+  - "Rakkkendroll d\xE9\xE9\xE9moooooooooon! Err\u0151l sz\xF3l az \xFAj dal! Eee
+    Rakkkendroll d\xE9\xE9\xE9mon!"
+  - "Rakkkendroll ma t\xE9lon a t\xE9ppen, sz\xE9p voln\xE9k met\xE9l!"
+  - "H\xEDrnei, t\xE9t\xE9, hormon t\xE9tpont t\xE9tt\xE9\xE9\xE9n! H\xEDrm\xF6l,
+    \xE9nt\xE9t turnon t\xE9p\xE9nt\xE9t\xE9n!"
+  - "R\xE9gi sz\xE9p n\xF3ta j\xF6\xF6\xF6n! Ejjjjajjj a s\xE1t\xE1n k\xE9p\xE9ben!"
+  - "Azt m\xE1' j\xE1tszottuk."
+  - "Lelkem m\xE1s dalra volt vid\xE1m, szerelmem, a m\xE9hcs mag\xE1ny!"
+  - "Zordon sorsom hajnala! R\xE1nktan\xE1l a varkij\xE1n!"
+  - "De m\xE1r j\xE1tszottuk h\xE1romszor!!!"
+  - "Nagyon kibaszt\xE1l vel\xFCnk Endr\xE9m, nagyon, nagyon! Magaddal is, az eg\xE9sz
+    zenekarral."
   - "H\xE1t itthagytak engem bazmeg!"
-  - "\xD3r\xE1kon megh\xF3t egy j\xF3 megh\xEDv\xF3!"
-  - "Nyitva egy m\xE1rh\xF3d, egy nics m\xE1sh\xEDv\xF3!"
-  - "T\xE1potut \xFCgyen-uty\xE1n h\xE1padt ajnalom!"
-  - "Repatarurgy\xE1n semmit h\xE1ny!"
-  - "Testv\xE9rek, ehhehe....egy jaj."
-  - "Amiko ROKK! Amiko m\xE9g! Aaaaaajjj gyer\xF6nk!"
-  - "Ajtott a v\xE9r, tudt\xE1l m\xE9rt nem orr!"
-  - "Amikor m\xE9g oltad\xE9khiad! Nem\xFAtam\xE9! \xC1ltat\xE9rfiam!"
+  - "Kicsit kor\xE1n \xE9rkezt\xFCnk, cimbora kicsit elf\xE1radt."
+  - "\xDCzen a folyam, mert ahmih v\xE9r olyan!"
 --- !u!1 &875839189
 GameObject:
   m_ObjectHideFlags: 0
@@ -893,7 +881,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.7058823, g: 0.6695501, b: 0.6695501, a: 0.834}
+  m_Color: {r: 0.7058823, g: 0.6695501, b: 0.6695501, a: 0.8627451}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -941,11 +929,11 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 73099481}
-  m_RootOrder: 0
+  m_Father: {fileID: 224073019}
+  m_RootOrder: 3
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -8}
+  m_AnchoredPosition: {x: 0, y: 244.5}
   m_SizeDelta: {x: 300, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1271733636
@@ -960,7 +948,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.10551856, g: 0.074610725, b: 0.33823532, a: 1}
+  m_Color: {r: 0.046241667, g: 0.0074610803, b: 0.33823532, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -969,7 +957,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 80e150391d36f4547aa5b75b4c11df46, type: 3}
-    m_FontSize: 80
+    m_FontSize: 90
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 8

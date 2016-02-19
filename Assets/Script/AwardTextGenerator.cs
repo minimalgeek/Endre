@@ -9,7 +9,7 @@ public class AwardTextGenerator : MonoBehaviour {
     public string[] awards;
 
 	void Start () {
-        awardText.text = awards[Random.Range(0, awards.Length)];
+        awardText.text = "\"" + awards[Random.Range(0, awards.Length)] + "\"";
 	}
 	
 	void Update () {
