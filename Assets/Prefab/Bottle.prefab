@@ -9,8 +9,9 @@ GameObject:
   m_Component:
   - 4: {fileID: 496128}
   - 212: {fileID: 21218848}
-  - 60: {fileID: 6029044}
   - 50: {fileID: 5066604}
+  - 61: {fileID: 6171868}
+  - 61: {fileID: 6146888}
   m_Layer: 0
   m_Name: Bottle
   m_TagString: Untagged
@@ -25,7 +26,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 175988}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.470481, y: 1.8522859, z: 0}
+  m_LocalPosition: {x: -12.166721, y: -3.5868042, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -47,8 +48,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!60 &6029044
-PolygonCollider2D:
+--- !u!61 &6146888
+BoxCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -58,45 +59,23 @@ PolygonCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  m_Points:
-    m_Paths:
-    - - {x: 0.35, y: -1.035}
-      - {x: 0.35, y: 0.155}
-      - {x: 0.345, y: 0.185}
-      - {x: 0.33499998, y: 0.255}
-      - {x: 0.31, y: 0.305}
-      - {x: 0.24499999, y: 0.375}
-      - {x: 0.205, y: 0.48499998}
-      - {x: 0.17999999, y: 0.77}
-      - {x: 0.16, y: 0.89}
-      - {x: 0.14999999, y: 0.98499995}
-      - {x: 0.14, y: 1.1}
-      - {x: 0.155, y: 1.17}
-      - {x: 0.14999999, y: 1.2149999}
-      - {x: 0.125, y: 1.245}
-      - {x: 0.099999994, y: 1.25}
-      - {x: -0.095, y: 1.25}
-      - {x: -0.13, y: 1.23}
-      - {x: -0.155, y: 1.2099999}
-      - {x: -0.16, y: 1.16}
-      - {x: -0.14999999, y: 1.115}
-      - {x: -0.14999999, y: 1.03}
-      - {x: -0.195, y: 0.635}
-      - {x: -0.21, y: 0.475}
-      - {x: -0.255, y: 0.35999998}
-      - {x: -0.29, y: 0.32}
-      - {x: -0.325, y: 0.265}
-      - {x: -0.345, y: 0.21}
-      - {x: -0.355, y: 0.145}
-      - {x: -0.355, y: -1.04}
-      - {x: -0.34, y: -1.145}
-      - {x: -0.32999998, y: -1.1999999}
-      - {x: -0.29, y: -1.25}
-      - {x: 0.24499999, y: -1.25}
-      - {x: 0.28, y: -1.245}
-      - {x: 0.325, y: -1.1899999}
-      - {x: 0.34, y: -1.115}
+  m_Offset: {x: 0, y: 0.78}
+  serializedVersion: 2
+  m_Size: {x: 0.35, y: 0.92}
+--- !u!61 &6171868
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 175988}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: -0.47}
+  serializedVersion: 2
+  m_Size: {x: 0.7, y: 1.55}
 --- !u!212 &21218848
 SpriteRenderer:
   m_ObjectHideFlags: 1
