@@ -326,7 +326,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToSpawn: {fileID: 175988, guid: ae33691debfb08e4fbaaa6a57fdf741e, type: 2}
-  horizontalForce: 1000
+  horizontalForce: 1200
   verticalForce: 300
   rotationForce: -500
   destroyTime: 1.3
@@ -1180,7 +1180,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   Priority: 128
