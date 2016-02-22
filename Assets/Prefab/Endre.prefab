@@ -289,7 +289,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 120598}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.411, y: -1.336, z: 0}
+  m_LocalPosition: {x: 0.411, y: -1.252, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 447884}
@@ -325,7 +325,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 116286}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.196, y: -1.351, z: 0}
+  m_LocalPosition: {x: -0.196, y: -1.267, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 473542}
@@ -337,7 +337,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 179142}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.77, y: -1.861, z: 0}
+  m_LocalPosition: {x: -0.738, y: -1.85, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 420004}
@@ -363,7 +363,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 169946}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -1.257, z: 0}
+  m_LocalPosition: {x: 0, y: -1.206, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 465034}
@@ -375,7 +375,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 187010}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.066, y: -1.182, z: 0}
+  m_LocalPosition: {x: 0.053, y: -1.129, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 405716}
@@ -387,7 +387,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 132454}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.087, y: 0.302, z: 0}
+  m_LocalPosition: {x: -1, y: 0.19, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 402950}
@@ -444,7 +444,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 176528}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.087, y: 0.302, z: 0}
+  m_LocalPosition: {x: 1, y: 0.19, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 449318}
@@ -470,7 +470,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 133600}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.77, y: -1.861, z: 0}
+  m_LocalPosition: {x: 0.738, y: -1.85, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 480346}
@@ -484,7 +484,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 168078}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.062, y: -1.182, z: 0}
+  m_LocalPosition: {x: -0.053, y: -1.129, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 486518}
@@ -714,7 +714,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_Offset: {x: -0.18, y: -0.06}
   serializedVersion: 2
-  m_Size: {x: 0.25, y: 0.98}
+  m_Size: {x: 0.2, y: 0.98}
 --- !u!61 &6128454
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -770,7 +770,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_Offset: {x: 0.18, y: -0.06}
   serializedVersion: 2
-  m_Size: {x: 0.25, y: 0.98}
+  m_Size: {x: 0.2, y: 0.98}
 --- !u!114 &11439122
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -783,7 +783,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ifYouAreDrunkDontSingPanel: {fileID: 0}
-  countDownUntilMain: 3
+  countDownUntilMain: 4
 --- !u!114 &11445184
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -796,7 +796,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ifYouAreDrunkDontSingPanel: {fileID: 0}
-  countDownUntilMain: 3
+  countDownUntilMain: 4
 --- !u!114 &11481554
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -808,9 +808,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b2280f3ffa63844bbf5ad5a2ac0adca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  verticalForce: 500
-  initialHorizontalForce: 600
-  horizontalForceIncrement: 100
+  verticalForce: 800
+  initialHorizontalForce: 500
+  horizontalForceIncrement: 75
   forceApplyTime: 2
 --- !u!114 &11491468
 MonoBehaviour:
@@ -824,7 +824,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ifYouAreDrunkDontSingPanel: {fileID: 0}
-  countDownUntilMain: 3
+  countDownUntilMain: 4
 --- !u!212 &21205968
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -851,7 +851,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 4
-  m_Sprite: {fileID: 21300004, guid: 079eb38a827a8df41ac81f89f821d6dc, type: 3}
+  m_Sprite: {fileID: 21300004, guid: b6167ee71df67a14799fe3cc98b9d089, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -881,7 +881,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 3
-  m_Sprite: {fileID: 21300016, guid: 079eb38a827a8df41ac81f89f821d6dc, type: 3}
+  m_Sprite: {fileID: 21300008, guid: b6167ee71df67a14799fe3cc98b9d089, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -911,9 +911,9 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300008, guid: 079eb38a827a8df41ac81f89f821d6dc, type: 3}
+  m_Sprite: {fileID: 21300002, guid: b6167ee71df67a14799fe3cc98b9d089, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
 --- !u!212 &21261104
 SpriteRenderer:
@@ -941,7 +941,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 21300010, guid: 079eb38a827a8df41ac81f89f821d6dc, type: 3}
+  m_Sprite: {fileID: 21300010, guid: b6167ee71df67a14799fe3cc98b9d089, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -971,9 +971,9 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300020, guid: 079eb38a827a8df41ac81f89f821d6dc, type: 3}
+  m_Sprite: {fileID: 21300012, guid: b6167ee71df67a14799fe3cc98b9d089, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
 --- !u!212 &21271800
 SpriteRenderer:
@@ -1001,7 +1001,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300014, guid: 079eb38a827a8df41ac81f89f821d6dc, type: 3}
+  m_Sprite: {fileID: 21300002, guid: b6167ee71df67a14799fe3cc98b9d089, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1031,7 +1031,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 4
-  m_Sprite: {fileID: 21300002, guid: 079eb38a827a8df41ac81f89f821d6dc, type: 3}
+  m_Sprite: {fileID: 21300014, guid: b6167ee71df67a14799fe3cc98b9d089, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1061,7 +1061,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 21300000, guid: 079eb38a827a8df41ac81f89f821d6dc, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b6167ee71df67a14799fe3cc98b9d089, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1091,7 +1091,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 4
-  m_Sprite: {fileID: 21300002, guid: 079eb38a827a8df41ac81f89f821d6dc, type: 3}
+  m_Sprite: {fileID: 21300014, guid: b6167ee71df67a14799fe3cc98b9d089, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1121,7 +1121,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300018, guid: 079eb38a827a8df41ac81f89f821d6dc, type: 3}
+  m_Sprite: {fileID: 21300012, guid: b6167ee71df67a14799fe3cc98b9d089, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1151,7 +1151,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300012, guid: 079eb38a827a8df41ac81f89f821d6dc, type: 3}
+  m_Sprite: {fileID: 21300006, guid: b6167ee71df67a14799fe3cc98b9d089, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1169,7 +1169,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0.61}
-  m_ConnectedAnchor: {x: -1.087, y: 0.912}
+  m_ConnectedAnchor: {x: -1, y: 0.8}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -1191,8 +1191,8 @@ HingeJoint2D:
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
-  m_Anchor: {x: 0, y: 0.5}
-  m_ConnectedAnchor: {x: 0.77, y: -1.361}
+  m_Anchor: {x: 0, y: 0.4}
+  m_ConnectedAnchor: {x: 0.738, y: -1.45}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -1215,7 +1215,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0.1, y: 0.86}
-  m_ConnectedAnchor: {x: 0.038000036, y: -0.322}
+  m_ConnectedAnchor: {x: 0.04700003, y: -0.26900002}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -1237,8 +1237,8 @@ HingeJoint2D:
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
-  m_Anchor: {x: 0.1459356, y: 0.76650274}
-  m_ConnectedAnchor: {x: -0.050064463, y: -0.58449733}
+  m_Anchor: {x: 0.14, y: 0.76650274}
+  m_ConnectedAnchor: {x: -0.056000024, y: -0.5004972}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -1261,7 +1261,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: -0.04, y: 0.86}
-  m_ConnectedAnchor: {x: 0.026000008, y: -0.322}
+  m_ConnectedAnchor: {x: 0.013000004, y: -0.26900002}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -1284,7 +1284,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0.61}
-  m_ConnectedAnchor: {x: 1.087, y: 0.912}
+  m_ConnectedAnchor: {x: 1, y: 0.8}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -1306,8 +1306,8 @@ HingeJoint2D:
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
-  m_Anchor: {x: -0.48062432, y: 0.75917315}
-  m_ConnectedAnchor: {x: -0.069624305, y: -0.57682675}
+  m_Anchor: {x: -0.3606706, y: 0.753676}
+  m_ConnectedAnchor: {x: 0.050329402, y: -0.4983241}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -1329,8 +1329,8 @@ HingeJoint2D:
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
-  m_Anchor: {x: 0, y: 0.5}
-  m_ConnectedAnchor: {x: -0.77, y: -1.361}
+  m_Anchor: {x: 0, y: 0.4}
+  m_ConnectedAnchor: {x: -0.738, y: -1.45}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
