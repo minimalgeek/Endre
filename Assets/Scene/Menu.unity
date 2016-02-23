@@ -1896,12 +1896,16 @@ Prefab:
       value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 11496054, guid: 15f244a3834ee5d44a52321fac87a876, type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 2079747686}
+      propertyPath: m_Colors.m_DisabledColor.r
+      value: 0.6745098
+      objectReference: {fileID: 0}
     - target: {fileID: 11496054, guid: 15f244a3834ee5d44a52321fac87a876, type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: BuyWeapon
+      propertyPath: m_Colors.m_DisabledColor.g
+      value: 0.6745098
+      objectReference: {fileID: 0}
+    - target: {fileID: 11496054, guid: 15f244a3834ee5d44a52321fac87a876, type: 2}
+      propertyPath: m_Colors.m_DisabledColor.b
+      value: 0.6745098
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 15f244a3834ee5d44a52321fac87a876, type: 2}
@@ -2677,12 +2681,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1998053465}
---- !u!114 &2079747686 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 11413530, guid: 15f244a3834ee5d44a52321fac87a876,
-    type: 2}
-  m_PrefabInternal: {fileID: 1168344942}
-  m_Script: {fileID: 11500000, guid: 340d6f9e7a03a084d9aab030cd886e38, type: 3}
 --- !u!1001 &2125238277
 Prefab:
   m_ObjectHideFlags: 0
@@ -2761,14 +2759,6 @@ Prefab:
     - target: {fileID: 22421710, guid: 84cc75d9b27a33340ae28db2062150a0, type: 2}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 11412248, guid: 84cc75d9b27a33340ae28db2062150a0, type: 2}
-      propertyPath: skin.id
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11412248, guid: 84cc75d9b27a33340ae28db2062150a0, type: 2}
-      propertyPath: skin.price
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 84cc75d9b27a33340ae28db2062150a0, type: 2}
