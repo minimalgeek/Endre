@@ -6,20 +6,28 @@ using System.Collections.Generic;
 public class GameData {
 
     public int[] bestScores;
+    public long sumOfScores = 0;
 
-    public void TryToAddBestScore(int scoreToAdd)
+    public Skin actualSkin;
+    public Weapon actualWeapon;
+
+    public GameData()
     {
-        if (bestScores == null)
-        {
-            bestScores = new int[5];
-        }
+        actualSkin = new Skin();
+        actualWeapon = new Weapon();
+        bestScores = new int[5];
+    }
 
+    public void AddScore(int scoreToAdd)
+    {
         SortBestScores();
 
         if (bestScores[0] < scoreToAdd)
         {
             bestScores[0] = scoreToAdd;
         }
+
+        sumOfScores += scoreToAdd;
     }
 
     public void SortBestScores()

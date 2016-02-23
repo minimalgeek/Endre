@@ -35,7 +35,6 @@ public class BeerSpawner : MonoBehaviour {
     
     public GameObject objectToSpawn;
 
-    public int horizontalForce;
     public int verticalForce;
     public int rotationForce;
     public float destroyTime;
@@ -105,7 +104,7 @@ public class BeerSpawner : MonoBehaviour {
         Destroy(instantiated, destroyTime);
 
         Rigidbody2D body = instantiated.GetComponent<Rigidbody2D>();
-        body.AddRelativeForce(new Vector2(group.directionMultiplier * horizontalForce, verticalForce));
+        body.AddRelativeForce(new Vector2(group.directionMultiplier * SaveLoad.data.actualWeapon.horizontalForce, verticalForce));
         body.AddTorque(group.directionMultiplier * rotationForce);
     }
     

@@ -8,13 +8,6 @@ public class PointController : MonoBehaviour {
     private float points;
     private bool shouldCollect = true;
 
-    private GameData gameData;
-
-    void Awake()
-    {
-        gameData = SaveLoad.Load();
-    }
-
     void Start () {
         points = 0;
 	}
@@ -36,8 +29,8 @@ public class PointController : MonoBehaviour {
     {
         if (shouldCollect)
         {
-            gameData.TryToAddBestScore((int)points);
-            SaveLoad.Save(gameData);
+            SaveLoad.data.AddScore((int)points);
+            SaveLoad.Save();
         }
         shouldCollect = false;
     }

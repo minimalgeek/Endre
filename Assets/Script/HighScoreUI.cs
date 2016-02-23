@@ -3,28 +3,26 @@ using System.Collections;
 using UnityEngine.UI;
 
 public class HighScoreUI : MonoBehaviour {
+    private const string VOL = "% vol";
 
-    private GameData gameData;
     public GameObject[] results;
-
-    void Awake()
-    {
-        gameData = SaveLoad.Load();
-    }
+    public GameObject totalScoreNumber;
     
 	void Start () {
-        if (gameData.bestScores != null)
+        if (SaveLoad.data.bestScores != null)
         {
-            gameData.SortBestScores();
+            SaveLoad.data.SortBestScores();
             for (int i = 0; i < results.Length; i++)
             {
-                int score = gameData.bestScores[gameData.bestScores.Length - 1 - i];
+                int score = SaveLoad.data.bestScores[SaveLoad.data.bestScores.Length - 1 - i];
                 if (score > 0)
                 {
-                    results[i].GetComponent<Text>().text = score.ToString();
+                    results[i].GetComponent<Text>().text = score.ToString() + VOL;
                 }
             }
         }
+
+        totalScoreNumber.GetComponent<Text>().text = SaveLoad.data.sumOfScores + VOL;
     }
 	
 }

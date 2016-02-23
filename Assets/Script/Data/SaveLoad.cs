@@ -7,7 +7,9 @@ public class SaveLoad
 {
     private const string FILE_PATH = "/louderThanHell.gd";
 
-    public static void Save(GameData data)
+    public static GameData data;
+
+    public static void Save()
     {
         BinaryFormatter bf = new BinaryFormatter();
         FileStream file = File.Create(Application.persistentDataPath + FILE_PATH);
@@ -15,21 +17,21 @@ public class SaveLoad
         file.Close();
     }
 
-    public static GameData Load()
+    public static void Load()
     {
         if (File.Exists(Application.persistentDataPath + FILE_PATH))
         {
             BinaryFormatter bf = new BinaryFormatter();
             FileStream file = File.Open(Application.persistentDataPath + FILE_PATH, FileMode.Open);
-            GameData data = (GameData)bf.Deserialize(file);
+            data = (GameData)bf.Deserialize(file);
             file.Close();
 
             PostRead(data);
-
-            return data;
+        } else
+        {
+            data = new GameData();
         }
-
-        return new GameData();
+        
     }
 
     private static void PostRead(GameData data)
