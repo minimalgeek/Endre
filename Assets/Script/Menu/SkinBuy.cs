@@ -28,9 +28,16 @@ public class SkinBuy : MonoBehaviour {
         return SaveLoad.data.sumOfScores >= skin.price && SaveLoad.data.actualSkin.id + 1 == skin.id;
     }
 
-    private bool HidePanelIsActive()
+    public bool HidePanelIsActive()
     {
-        return skin.id > SaveLoad.data.actualSkin.id;
+        foreach (Skin tempSkin in SaveLoad.data.unlockedSkins)
+        {
+            if (tempSkin.id == skin.id)
+            {
+                return false;
+            }
+        }
+        return true;
     }
 
     public void BuySkin()
@@ -38,6 +45,7 @@ public class SkinBuy : MonoBehaviour {
         if (SkinBuyIsEnabled())
         {
             skinSetter.UseSkin();
+            SaveLoad.data.unlockedSkins.Add(skin);
             SaveLoad.data.sumOfScores -= skin.price;
             SaveLoad.Save();
         }

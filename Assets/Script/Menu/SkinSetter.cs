@@ -23,23 +23,10 @@ public class SkinSetter : MonoBehaviour {
 
     public void ActivateUseButton()
     {
-        if (IsEnabledToChoose())
+        if (!skinBuy.HidePanelIsActive())
         {
             useButton.gameObject.SetActive(true);
         }
-    }
-	
-    private bool IsEnabledToChoose()
-    {
-        foreach(Skin tempSkin in SaveLoad.data.unlockedSkins)
-        {
-            if (Skin().id == tempSkin.id)
-            {
-                return true;
-            }
-        }
-
-        return false;
     }
 
     public void UseSkin()
