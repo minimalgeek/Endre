@@ -8,6 +8,9 @@ public class GameData {
     public int[] bestScores;
     public long sumOfScores = 0;
 
+    public ICollection<Skin> unlockedSkins;
+    public ICollection<Weapon> unlockedWeapons;
+
     public Skin actualSkin;
     public Weapon actualWeapon;
 
@@ -15,6 +18,13 @@ public class GameData {
     {
         actualSkin = new Skin();
         actualWeapon = new Weapon();
+
+        unlockedSkins = new List<Skin>();
+        unlockedWeapons = new List<Weapon>();
+
+        unlockedSkins.Add(actualSkin);
+        unlockedWeapons.Add(actualWeapon);
+
         bestScores = new int[5];
     }
 

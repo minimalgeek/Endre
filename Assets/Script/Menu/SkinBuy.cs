@@ -10,9 +10,12 @@ public class SkinBuy : MonoBehaviour {
     public GameObject hidePanel;
     public Text buyButtonText;
 
+    private SkinSetter skinSetter;
+
     void Start()
     {
         buyButtonText.text = skin.price + "% vol";
+        skinSetter = gameObject.GetComponent<SkinSetter>();
     }
 
 	void OnGUI() {
@@ -34,7 +37,7 @@ public class SkinBuy : MonoBehaviour {
     {
         if (SkinBuyIsEnabled())
         {
-            SaveLoad.data.actualSkin = skin;
+            skinSetter.UseSkin();
             SaveLoad.data.sumOfScores -= skin.price;
             SaveLoad.Save();
         }

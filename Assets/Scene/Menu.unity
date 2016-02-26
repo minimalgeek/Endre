@@ -916,11 +916,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22421710, guid: 84cc75d9b27a33340ae28db2062150a0, type: 2}
       propertyPath: m_SizeDelta.x
-      value: -10
+      value: -14
       objectReference: {fileID: 0}
     - target: {fileID: 22421710, guid: 84cc75d9b27a33340ae28db2062150a0, type: 2}
       propertyPath: m_SizeDelta.y
-      value: -10
+      value: -14
       objectReference: {fileID: 0}
     - target: {fileID: 22421710, guid: 84cc75d9b27a33340ae28db2062150a0, type: 2}
       propertyPath: m_AnchorMin.x
@@ -1523,11 +1523,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22421710, guid: 84cc75d9b27a33340ae28db2062150a0, type: 2}
       propertyPath: m_SizeDelta.x
-      value: -10
+      value: -14
       objectReference: {fileID: 0}
     - target: {fileID: 22421710, guid: 84cc75d9b27a33340ae28db2062150a0, type: 2}
       propertyPath: m_SizeDelta.y
-      value: -10
+      value: -14
       objectReference: {fileID: 0}
     - target: {fileID: 22421710, guid: 84cc75d9b27a33340ae28db2062150a0, type: 2}
       propertyPath: m_AnchorMin.x
@@ -1626,11 +1626,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22421710, guid: 84cc75d9b27a33340ae28db2062150a0, type: 2}
       propertyPath: m_SizeDelta.x
-      value: -10
+      value: -14
       objectReference: {fileID: 0}
     - target: {fileID: 22421710, guid: 84cc75d9b27a33340ae28db2062150a0, type: 2}
       propertyPath: m_SizeDelta.y
-      value: -10
+      value: -14
       objectReference: {fileID: 0}
     - target: {fileID: 22421710, guid: 84cc75d9b27a33340ae28db2062150a0, type: 2}
       propertyPath: m_AnchorMin.x
@@ -1859,6 +1859,12 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!114 &1108311833 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11495766, guid: 84cc75d9b27a33340ae28db2062150a0,
+    type: 2}
+  m_PrefabInternal: {fileID: 2125238277}
+  m_Script: {fileID: 1392445389, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
 --- !u!1001 &1168344942
 Prefab:
   m_ObjectHideFlags: 0
@@ -2007,11 +2013,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22421710, guid: 84cc75d9b27a33340ae28db2062150a0, type: 2}
       propertyPath: m_SizeDelta.x
-      value: -10
+      value: -14
       objectReference: {fileID: 0}
     - target: {fileID: 22421710, guid: 84cc75d9b27a33340ae28db2062150a0, type: 2}
       propertyPath: m_SizeDelta.y
-      value: -10
+      value: -14
       objectReference: {fileID: 0}
     - target: {fileID: 22421710, guid: 84cc75d9b27a33340ae28db2062150a0, type: 2}
       propertyPath: m_AnchorMin.x
@@ -2304,11 +2310,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22421710, guid: 84cc75d9b27a33340ae28db2062150a0, type: 2}
       propertyPath: m_SizeDelta.x
-      value: -10
+      value: -14
       objectReference: {fileID: 0}
     - target: {fileID: 22421710, guid: 84cc75d9b27a33340ae28db2062150a0, type: 2}
       propertyPath: m_SizeDelta.y
-      value: -10
+      value: -14
       objectReference: {fileID: 0}
     - target: {fileID: 22421710, guid: 84cc75d9b27a33340ae28db2062150a0, type: 2}
       propertyPath: m_AnchorMin.x
@@ -2338,14 +2344,6 @@ Prefab:
       propertyPath: m_Name
       value: Skin (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 11412248, guid: 84cc75d9b27a33340ae28db2062150a0, type: 2}
-      propertyPath: skin.id
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11412248, guid: 84cc75d9b27a33340ae28db2062150a0, type: 2}
-      propertyPath: skin.price
-      value: 10000
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 84cc75d9b27a33340ae28db2062150a0, type: 2}
   m_IsPrefabParent: 0
@@ -2374,7 +2372,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1656494805
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2854,11 +2852,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22421710, guid: 84cc75d9b27a33340ae28db2062150a0, type: 2}
       propertyPath: m_SizeDelta.x
-      value: -10
+      value: -14
       objectReference: {fileID: 0}
     - target: {fileID: 22421710, guid: 84cc75d9b27a33340ae28db2062150a0, type: 2}
       propertyPath: m_SizeDelta.y
-      value: -10
+      value: -14
       objectReference: {fileID: 0}
     - target: {fileID: 22421710, guid: 84cc75d9b27a33340ae28db2062150a0, type: 2}
       propertyPath: m_AnchorMin.x
@@ -2883,6 +2881,18 @@ Prefab:
     - target: {fileID: 22421710, guid: 84cc75d9b27a33340ae28db2062150a0, type: 2}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 11426876, guid: 84cc75d9b27a33340ae28db2062150a0, type: 2}
+      propertyPath: useButton
+      value: 
+      objectReference: {fileID: 1108311833}
+    - target: {fileID: 11412248, guid: 84cc75d9b27a33340ae28db2062150a0, type: 2}
+      propertyPath: skin.id
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11412248, guid: 84cc75d9b27a33340ae28db2062150a0, type: 2}
+      propertyPath: skin.price
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 84cc75d9b27a33340ae28db2062150a0, type: 2}
