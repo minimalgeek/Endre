@@ -3,7 +3,7 @@ using System.Collections;
 using UnityEngine.UI;
 
 public class HighScoreUI : MonoBehaviour {
-    private const string VOL = "% vol";
+    private const string VOL = " Ft";
 
     public GameObject[] results;
     public GameObject totalScoreNumber;
