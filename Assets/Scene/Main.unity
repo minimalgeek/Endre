@@ -492,7 +492,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.10248627, g: 0.0087586595, b: 0.39705884, a: 1}
+  m_Color: {r: 0.16176468, g: 0.113136835, b: 0.026167812, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -500,7 +500,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 8e6e18925e1403c419d094c1c60870b4, type: 3}
+    m_Font: {fileID: 12800000, guid: 2d7f1f3abac82724ca678c9ea1e622c2, type: 3}
     m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 1
@@ -945,7 +945,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.046241667, g: 0.0074610803, b: 0.33823532, a: 1}
+  m_Color: {r: 0.16176468, g: 0.113136835, b: 0.026167812, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -953,8 +953,8 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 8e6e18925e1403c419d094c1c60870b4, type: 3}
-    m_FontSize: 80
+    m_Font: {fileID: 12800000, guid: 2d7f1f3abac82724ca678c9ea1e622c2, type: 3}
+    m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 0
@@ -1018,7 +1018,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.046241667, g: 0.0074610803, b: 0.33823532, a: 1}
+  m_Color: {r: 0.16176468, g: 0.113136835, b: 0.026167812, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1026,8 +1026,8 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 8e6e18925e1403c419d094c1c60870b4, type: 3}
-    m_FontSize: 80
+    m_Font: {fileID: 12800000, guid: 2d7f1f3abac82724ca678c9ea1e622c2, type: 3}
+    m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 0
@@ -1038,7 +1038,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '% vol'
+  m_Text: Ft
 --- !u!222 &1454581968
 CanvasRenderer:
   m_ObjectHideFlags: 0
