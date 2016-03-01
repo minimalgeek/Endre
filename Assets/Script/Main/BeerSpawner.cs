@@ -56,7 +56,7 @@ public class BeerSpawner : MonoBehaviour {
 
     public float CalculateMultiplier()
     {
-        return 1f + spawnedBeers / 100f;
+        return 1f + spawnedBeers / 1000f;
     }
 
     private void HandlePanelCooldown()

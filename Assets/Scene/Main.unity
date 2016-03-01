@@ -795,17 +795,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   awardText: {fileID: 667345375}
   awards:
-  - "Lenkedetlen m\xE9ly\xE9n, retnek gy\xFAl\xF6let. Nemkemjehtet\xE9!"
-  - "Szemt\u0151l szembe mondjad, mindent megtehetsz. Olyannak meg \xFAtyohattyel,
-    ahogy semmelyik haver!"
+  - "Lenkedetlen m\xE9ly\xE9n, retnek gy\xFAl\xF6let."
+  - "Olyannak meg \xFAtyohattyel, ahogy semmelyik haver!"
   - "A sz\xEDv j\xF3katag f\xE9m, \xFAjra \xE9kra k\xE9m, \xFAjra \xE9k!"
   - "L\xE1stam mindenre v\xF6lkid\xE1m, szerelmem a m\xE1s villog\xE1ny!"
-  - "\xD3\xF3\xF3 \xF3\xF3\xF3\xF3\xF3 \xF3\xF3\xF3 \xF3\xF3\xF3 \xF3\xF3\xF3\xF3\xF3
-    \xF3\xF3\xF3 mindenki! \xD3\xF3\xF3 \xF3\xF3\xF3\xF3\xF3 \xF3\xF3\xF3 gyer\xFCnk!"
-  - "Egy vadonat\xFAj n\xF3taaaaaa az \xFAj lemezhez! Gy\xFAjt\xF3pontbaaaaaan! Gyer\xFCnk!
-    Gyer\xFCnk! Gyer\xFCnk!"
-  - "Gy\u0171l\xF6let! Gy\u0171l\xF6let! Vanded\xE9tet\xE9det a gy\u0171l\xF6let!
-    Tang\xF6l\xE9det...."
+  - "Egy vadonat\xFAj n\xF3taaaaaa az \xFAj lemezhez!"
+  - "Vanded\xE9tet\xE9det a gy\u0171l\xF6let! Tang\xF6l\xE9det...."
   - "\xC9daporban, \xEDtaporban, vasvonalban Gy\xFAjt\xF3pontban! \xCDgy kell \xE9lnem!!!"
   - "\xC9szenl\xE9tben, k\xE9zenl\xE9tben, Vad\xE1ll\u0151tten n\xEDg\xE1tj\u0151szlen
     N\xEDdenl\u0151ten!"
@@ -815,30 +810,22 @@ MonoBehaviour:
   - "S\xF6riv\xF3 vagyok! S\xF6riv\xF3 vagyok! S\xF6riv\xF3 vagyok! Diszn\xF3!!"
   - "A fi\xFA m\xE9lyb\u0151l \xE9rkezett, ahol fi\xFA a m\xE9lyb\u0151l \xE9rkezett,
     ahol fi\xFA a m\xE9lyb\u0151l \xE9rkezett!"
-  - "Ne \xE9nekeej\xE9 ha be vagy baszva ne \xE9nekeej\xE9 bazmeg!"
+  - "Ne \xE9nekeej\xE9 ha be vagy b*szva ne \xE9nekeej\xE9 b*zmeg!"
   - "Ittva az ajt\xF3 itt nincs maegh\xEDv\xF3. Ittva az ajt\xF3 m\xE1rmegh\xEDv\xF3!"
-  - "Nyitva egy b\xE1rmi b\xE1rh\xF3, egy nyitva egy m\xE1rh\xEDv\xF3! V\xE1rh\xF6nek
-    m\xE1rh\xF3n'. Egy nyitm\xE1kh\xEDv\xF3!"
-  - "Nyidva egy m\xE1rh\xF3d, egy nyitva egy m\xE1rh\xEDv\xF3!"
+  - "Nyitva egy b\xE1rmi b\xE1rh\xF3, egy nyitva egy m\xE1rh\xEDv\xF3!"
   - "Felp\xF6rg\xF6tt \xE9jjel ut\xE1n s\xE1padt hajnalom, t\xE1potut \xFCgyen-uty\xE1n
     h\xE1padt ajnalom."
-  - "Nem akarok semmit! Hadd halljam! H\xFA\xFA Ez az!"
-  - "Sosem b\xEDrtam, megnyuvadni, a nagyvil\xE1gban akhurravelni. V\xE1rtamberr\xFCl
-    atultatulni, a v\xE1rtam\xE9tben \xE1tkorraduldia."
-  - "Apr\xF3 p\xE9nzre v\xE1ltok \xE1rkit, apr\xF3 p\xE9nzre v\xE1ltok \xE1rmit. Ittattalran
-    megvirrad, ma megvirradni v\xE1rna elhiggad."
-  - "... nap mikor megsz\xFClettem, hull\xF3csillag volt az \xE9gen sosem v\xE1rtam..."
-  - "Szors k\xF6nyv\xE9be, p\xE1r sz\xF3, csak ennyi. J\xFAtyanyennyi, m\xE1tykonnyakennyi.
-    Ty\xF3ny."
+  - "Nem akarok semmit! Hadd halljam! H\xFA\xFA ez az!"
+  - "Sosem b\xEDrtam, megnyuvadni, a nagyvil\xE1gban akhurravelni."
+  - "Apr\xF3 p\xE9nzre v\xE1ltok \xE1rkit, apr\xF3 p\xE9nzre v\xE1ltok \xE1rmit."
+  - "J\xFAtyanyennyi, m\xE1tykonnyakennyi. Ty\xF3ny."
   - "Na k\xE9rem ez m\xE9g most volt csak a kezdet, innent\u0151l lesz a buli!"
   - "Szemsz\xE9l\u0171 l\xE1ny, v\xE1rkor\xF6ngy\xFC v\xE1runk."
-  - "\xC9jf\xE9li l\xE1ny, soksok \xE9ve annak, hogy v\xE1rh\xF3m \xE1k. Kerestem
-    \u0151t, \xFCres csendben, dedemm, dedemm, d\xF6d\xF6nn!"
+  - "Kerestem \u0151t, \xFCres csendben, dedemm, dedemm, d\xF6d\xF6nn!"
   - "\xD6reg rocker vagyok, jajj gyerekek, \xE9n annyira \xF6reg rocker vagyok, testv\xE9rek,
     egy, jajj."
   - "Az \xF6reg rokker? J\xF3! Amikor ROCK! Amikor m\xE9g! AAAAAjjjj! Gyer\xFCnk!"
   - "Amikor m\xE9g, minden nyitva volt. Ajtott a v\xE9r, tudt\xE1l m\xE9rt nem orr!"
-  - "Amikor m\xE9g, volt a bar\xE1ts\xE1g! Nem ugatt\xE1k, l\xE1ncra mert kuty\xE1k!"
   - "Namehkuv\xE1! Innov\xE1lt kuty\xE1k! V\xE1rtam \xE9n! Innov\xE1lt kuty\xE1k!
     Gyer\xFCnk!"
   - "Rakkkendroll d\xE9\xE9\xE9moooooooooon! Err\u0151l sz\xF3l az \xFAj dal! Eee
@@ -846,16 +833,12 @@ MonoBehaviour:
   - "Rakkkendroll ma t\xE9lon a t\xE9ppen, sz\xE9p voln\xE9k met\xE9l!"
   - "H\xEDrnei, t\xE9t\xE9, hormon t\xE9tpont t\xE9tt\xE9\xE9\xE9n! H\xEDrm\xF6l,
     \xE9nt\xE9t turnon t\xE9p\xE9nt\xE9t\xE9n!"
-  - "R\xE9gi sz\xE9p n\xF3ta j\xF6\xF6\xF6n! Ejjjjajjj a s\xE1t\xE1n k\xE9p\xE9ben!"
-  - "Azt m\xE1' j\xE1tszottuk."
   - "Lelkem m\xE1s dalra volt vid\xE1m, szerelmem, a m\xE9hcs mag\xE1ny!"
   - "Zordon sorsom hajnala! R\xE1nktan\xE1l a varkij\xE1n!"
   - "De m\xE1r j\xE1tszottuk h\xE1romszor!!!"
-  - "Nagyon kibaszt\xE1l vel\xFCnk Endr\xE9m, nagyon, nagyon! Magaddal is, az eg\xE9sz
-    zenekarral."
-  - "H\xE1t itthagytak engem bazmeg!"
+  - "Nagyon kib*szt\xE1l vel\xFCnk, nagyon, nagyon! Magaddal is, az eg\xE9sz zenekarral."
+  - "H\xE1t itthagytak engem b*zmeg!"
   - "Kicsit kor\xE1n \xE9rkezt\xFCnk, cimbora kicsit elf\xE1radt."
-  - "\xDCzen a folyam, mert ahmih v\xE9r olyan!"
 --- !u!1 &835109180
 GameObject:
   m_ObjectHideFlags: 0
@@ -1226,8 +1209,8 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -150, y: -40}
-  m_SizeDelta: {x: 300, y: 80}
+  m_AnchoredPosition: {x: -150, y: -30}
+  m_SizeDelta: {x: 300, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1271733636
 MonoBehaviour:
@@ -1372,8 +1355,8 @@ RectTransform:
   m_RootOrder: 1
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 160, y: -40}
-  m_SizeDelta: {x: 300, y: 80}
+  m_AnchoredPosition: {x: 160, y: -30}
+  m_SizeDelta: {x: 300, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1454581967
 MonoBehaviour:
