@@ -14,7 +14,7 @@ public class SkinBuy : MonoBehaviour {
 
     void Start()
     {
-        buyButtonText.text = skin.price + "% vol";
+        buyButtonText.text = skin.price + SceneLoader.VOL;
         skinSetter = gameObject.GetComponent<SkinSetter>();
     }
 

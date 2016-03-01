@@ -13,7 +13,7 @@ public class WeaponBuy : MonoBehaviour
 
     void Start()
     {
-        buyButtonText.text = weapon.price + "% vol";
+        buyButtonText.text = weapon.price + SceneLoader.VOL;
     }
 
     void OnGUI()

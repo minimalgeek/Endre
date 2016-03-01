@@ -3,7 +3,6 @@ using System.Collections;
 using UnityEngine.UI;
 
 public class HighScoreUI : MonoBehaviour {
-    private const string VOL = " Ft";
 
     public GameObject[] results;
     public GameObject totalScoreNumber;
@@ -17,12 +16,12 @@ public class HighScoreUI : MonoBehaviour {
                 int score = SaveLoad.data.bestScores[SaveLoad.data.bestScores.Length - 1 - i];
                 if (score > 0)
                 {
-                    results[i].GetComponent<Text>().text = score.ToString() + VOL;
+                    results[i].GetComponent<Text>().text = score.ToString() + SceneLoader.VOL;
                 }
             }
         }
 
-        totalScoreNumber.GetComponent<Text>().text = SaveLoad.data.sumOfScores + VOL;
+        totalScoreNumber.GetComponent<Text>().text = SaveLoad.data.sumOfScores + SceneLoader.VOL;
     }
 	
 }

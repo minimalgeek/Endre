@@ -1,13 +1,15 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class GameEndChecker : MonoBehaviour {
 
     public GameObject ifYouAreDrunkDontSingPanel;
-    private SceneLoader sceneLoader;
-    private PointController pointController;
     public float countDownUntilMain;
 
+    private SceneLoader sceneLoader;
+    private PointController pointController;
+    
     private bool failed;
 
 	void Start () {
@@ -21,8 +23,6 @@ public class GameEndChecker : MonoBehaviour {
 	void Update () {
 	    if (failed)
         {
-            pointController.DisableCollecting();
-
             countDownUntilMain -= Time.deltaTime;
             if (countDownUntilMain <= 0)
             {
@@ -34,9 +34,10 @@ public class GameEndChecker : MonoBehaviour {
 
     void OnCollisionEnter2D(Collision2D coll)
     {
-        if (coll.gameObject.tag == "EndGameCollider")
+        if (coll.gameObject.tag == "EndGameCollider" && !failed)
         {
             ifYouAreDrunkDontSingPanel.SetActive(true);
+            pointController.DisableCollectingAndSubmitScore();
             failed = true;
         }
     }

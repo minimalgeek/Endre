@@ -7,6 +7,9 @@ public class SceneLoader : MonoBehaviour {
     private const string MAIN = "Main";
     private const string MENU = "Menu";
 
+    public const string VOL = " Ft";
+    public const string MULT = " X";
+
     public GameObject weaponPanel;
     public GameObject skinPanel;
 

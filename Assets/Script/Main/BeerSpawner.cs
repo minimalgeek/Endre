@@ -42,6 +42,8 @@ public class BeerSpawner : MonoBehaviour {
     public SideGroup left;
     public SideGroup right;
 
+    private long spawnedBeers = 0;
+
     void Start () {
         
     }
@@ -50,6 +52,11 @@ public class BeerSpawner : MonoBehaviour {
     {
         HandlePanelCooldown();
         HandleInput();
+    }
+
+    public float CalculateMultiplier()
+    {
+        return 1f + spawnedBeers / 100f;
     }
 
     private void HandlePanelCooldown()
@@ -90,6 +97,7 @@ public class BeerSpawner : MonoBehaviour {
         SideGroup group = touchPos.x < Screen.width / 2 ? left : right;
         group.Fire();
         InitBottle(group, touchPos);
+        spawnedBeers++;
     }
 
     private void InitBottle(SideGroup group, Vector2 touchPos) {

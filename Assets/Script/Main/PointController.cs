@@ -5,12 +5,19 @@ using UnityEngine.UI;
 public class PointController : MonoBehaviour {
 
     public Text pointText;
+    public Text endPointsText;
+    public Text beerMultiplierText;
+    public Text sumPointsText;
+    public GameObject pointPanel;
+
     private float points;
     private bool shouldCollect = true;
-
+    private BeerSpawner spawner;
+    
     void Start () {
         points = 0;
-	}
+        spawner = FindObjectOfType<BeerSpawner>();
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -25,13 +32,23 @@ public class PointController : MonoBehaviour {
         pointText.text = ((int)points).ToString();
     }
 
-    public void DisableCollecting()
+    public void DisableCollectingAndSubmitScore()
     {
         if (shouldCollect)
         {
-            SaveLoad.data.AddScore((int)points);
+            int pointsCollected = (int)points;
+            float multiplier = spawner.CalculateMultiplier();
+            int sumPoints = (int)(pointsCollected * multiplier);
+
+            endPointsText.text = pointsCollected + SceneLoader.VOL;
+            beerMultiplierText.text = multiplier + SceneLoader.MULT;
+            sumPointsText.text = sumPoints + SceneLoader.VOL;
+
+            SaveLoad.data.AddScore(sumPoints);
             SaveLoad.Save();
+
+            pointPanel.SetActive(false);
+            shouldCollect = false;
         }
-        shouldCollect = false;
     }
 }
