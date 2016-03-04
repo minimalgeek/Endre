@@ -1,14 +1,15 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class Blinker : MonoBehaviour {
 
-    private SpriteRenderer myRenderer;
+    private CanvasGroup group;
 
     void Start()
     {
-        myRenderer = gameObject.GetComponent<SpriteRenderer>();
-        StartCoroutine(DoBlinks(0.15f, 0.2f));
+        group = this.gameObject.GetComponent<CanvasGroup>();
+        StartCoroutine(DoBlinks(0.05f, 0.2f));
     }
 
     IEnumerator DoBlinks(float duration, float blinkTime)
@@ -18,12 +19,13 @@ public class Blinker : MonoBehaviour {
             duration -= Time.deltaTime;
 
             //toggle renderer
-            myRenderer.enabled = !myRenderer.enabled;
+            group.alpha = group.alpha == 1 ? 0 : 1;
 
             //wait for a bit
             yield return new WaitForSeconds(blinkTime);
         }
 
         Destroy(gameObject);
+        Destroy(gameObject.transform.parent.gameObject);
     }
 }
