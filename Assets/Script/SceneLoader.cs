@@ -54,4 +54,9 @@ public class SceneLoader : MonoBehaviour {
     {
         SceneManager.LoadScene(MENU);
     }
+
+    public void GoToFacebook()
+    {
+        Application.OpenURL("http://www.facebook.com/zombiesheepstudios/");
+    }
 }
