@@ -5,11 +5,12 @@ using UnityEngine.UI;
 public class Blinker : MonoBehaviour {
 
     private CanvasGroup group;
+    public float duration = 0.15f;
 
     void Start()
     {
         group = this.gameObject.GetComponent<CanvasGroup>();
-        StartCoroutine(DoBlinks(0.05f, 0.2f));
+        StartCoroutine(DoBlinks(duration, 0.2f));
     }
 
     IEnumerator DoBlinks(float duration, float blinkTime)
