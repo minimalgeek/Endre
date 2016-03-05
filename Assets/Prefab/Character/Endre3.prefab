@@ -873,7 +873,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   verticalForce: 800
   initialHorizontalForce: 500
-  horizontalForceIncrement: 75
+  horizontalForceIncrement: 85
   forceApplyTime: 2
 --- !u!114 &11491468
 MonoBehaviour:
@@ -1462,6 +1462,10 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: m_LocalPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: horizontalForceIncrement
+      value: 85
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
