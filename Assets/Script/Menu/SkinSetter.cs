@@ -6,7 +6,6 @@ public class SkinSetter : MonoBehaviour {
 
     private Image backgroundColor;
     private SkinBuy skinBuy;
-    public Button useButton;
 
     void Start()
     {
@@ -17,17 +16,8 @@ public class SkinSetter : MonoBehaviour {
         {
             backgroundColor.enabled = false;
         }
-
-        ActivateUseButton();
     }
-
-    public void ActivateUseButton()
-    {
-        if (!skinBuy.HidePanelIsActive())
-        {
-            useButton.gameObject.SetActive(true);
-        }
-    }
+    
 
     public void UseSkin()
     {

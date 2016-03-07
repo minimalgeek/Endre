@@ -44,10 +44,11 @@ public class SkinBuy : MonoBehaviour {
     {
         if (SkinBuyIsEnabled())
         {
-            skinSetter.UseSkin();
             SaveLoad.data.unlockedSkins.Add(skin);
             SaveLoad.data.sumOfScores -= skin.price;
             SaveLoad.Save();
+
+            skinSetter.UseSkin();
         }
     }
 }

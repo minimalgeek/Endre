@@ -28,7 +28,7 @@ GameObject:
   - 4: {fileID: 448206}
   - 114: {fileID: 11481554}
   m_Layer: 0
-  m_Name: Endre5
+  m_Name: Character5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -871,7 +871,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b2280f3ffa63844bbf5ad5a2ac0adca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  verticalForce: 800
+  verticalForce: 1000
   initialHorizontalForce: 500
   horizontalForceIncrement: 85
   forceApplyTime: 2
@@ -1466,6 +1466,10 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: horizontalForceIncrement
       value: 85
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: verticalForce
+      value: 1000
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
