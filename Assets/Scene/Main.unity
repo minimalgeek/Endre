@@ -2605,7 +2605,7 @@ MonoBehaviour:
   - {fileID: 107558, guid: dad1bd76bf81ea0449f9b39dcf22530e, type: 2}
   - {fileID: 107558, guid: 13c23db8756c2304da9d9d64c6939cf3, type: 2}
   - {fileID: 107558, guid: 6d39480b2a63f554cbedc25ce35bbe2b, type: 2}
-  - {fileID: 107558, guid: ac8c8d5f2b5933746aa7bb58daee11c8, type: 2}
+  - {fileID: 151608, guid: ac8c8d5f2b5933746aa7bb58daee11c8, type: 2}
   prefix: Character
 --- !u!4 &2003037615
 Transform:
