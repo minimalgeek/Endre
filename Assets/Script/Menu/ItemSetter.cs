@@ -34,6 +34,6 @@ public class ItemSetter : MonoBehaviour {
 
     private BuyableItem ItemToBuy()
     {
-        return buy.itemToBuy();
+        return buy.ItemToBuy();
     }
 }

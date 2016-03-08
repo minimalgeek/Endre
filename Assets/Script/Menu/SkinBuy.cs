@@ -10,18 +10,18 @@ public class SkinBuy : Buy
         SaveLoad.data.actualSkin = (Skin)item;
     }
 
-    protected override BuyableItem actualItem()
+    protected override BuyableItem ActualItem()
     {
         return SaveLoad.data.actualSkin;
     }
 
-    public override BuyableItem itemToBuy()
+    public override BuyableItem ItemToBuy()
     {
         return skin;
     }
 
-    protected override ICollection<BuyableItem> unlockedItemList()
+    protected override ICollection<BuyableItem> UnlockedItemList()
     {
-        return (ICollection<BuyableItem>)SaveLoad.data.unlockedSkins;
+        return SaveLoad.data.unlockedSkins;
     }
 }

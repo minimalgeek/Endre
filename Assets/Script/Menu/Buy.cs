@@ -10,14 +10,14 @@ public abstract class Buy : MonoBehaviour {
 
     private ItemSetter itemSetter;
 
-    protected abstract ICollection<BuyableItem> unlockedItemList();
-    public abstract BuyableItem itemToBuy();
-    protected abstract BuyableItem actualItem();
+    protected abstract ICollection<BuyableItem> UnlockedItemList();
+    public abstract BuyableItem ItemToBuy();
+    protected abstract BuyableItem ActualItem();
     public abstract void SetActualItem(BuyableItem item);
 
     void Start()
     {
-        buyButtonText.text = itemToBuy().price + SceneLoader.VOL;
+        buyButtonText.text = ItemToBuy().price + SceneLoader.VOL;
         itemSetter = gameObject.GetComponent<ItemSetter>();
     }
 
@@ -28,14 +28,14 @@ public abstract class Buy : MonoBehaviour {
 
     private bool BuyIsEnabled()
     {
-        return SaveLoad.data.sumOfScores >= itemToBuy().price && actualItem().id + 1 == itemToBuy().id;
+        return SaveLoad.data.sumOfScores >= ItemToBuy().price;
     }
 
     public bool HidePanelIsActive()
     {
-        foreach (BuyableItem tempItem in unlockedItemList())
+        foreach (BuyableItem tempItem in UnlockedItemList())
         {
-            if (tempItem.id == itemToBuy().id)
+            if (tempItem.id == ItemToBuy().id)
             {
                 return false;
             }
@@ -47,8 +47,8 @@ public abstract class Buy : MonoBehaviour {
     {
         if (BuyIsEnabled())
         {
-            unlockedItemList().Add(itemToBuy());
-            SaveLoad.data.sumOfScores -= itemToBuy().price;
+            UnlockedItemList().Add(ItemToBuy());
+            SaveLoad.data.sumOfScores -= ItemToBuy().price;
             SaveLoad.Save();
 
             itemSetter.UseItem();

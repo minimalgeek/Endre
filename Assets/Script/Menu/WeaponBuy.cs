@@ -1,6 +1,5 @@
 ﻿using UnityEngine;
 using System.Collections.Generic;
-using System;
 
 public class WeaponBuy : Buy
 {
@@ -11,18 +10,18 @@ public class WeaponBuy : Buy
         SaveLoad.data.actualWeapon = (Weapon)item;
     }
 
-    protected override BuyableItem actualItem()
+    protected override BuyableItem ActualItem()
     {
         return SaveLoad.data.actualWeapon;
     }
 
-    public override BuyableItem itemToBuy()
+    public override BuyableItem ItemToBuy()
     {
         return weapon;
     }
 
-    protected override ICollection<BuyableItem> unlockedItemList()
+    protected override ICollection<BuyableItem> UnlockedItemList()
     {
-        return (ICollection<BuyableItem>)SaveLoad.data.unlockedWeapons;
+        return SaveLoad.data.unlockedWeapons;
     }
 }
