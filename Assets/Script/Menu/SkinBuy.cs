@@ -1,54 +1,27 @@
 ﻿using UnityEngine;
-using System.Collections;
-using UnityEngine.UI;
+using System.Collections.Generic;
 
-public class SkinBuy : MonoBehaviour {
-
+public class SkinBuy : Buy
+{
     public Skin skin;
 
-    public Button buyButton;
-    public GameObject hidePanel;
-    public Text buyButtonText;
-
-    private SkinSetter skinSetter;
-
-    void Start()
+    public override void SetActualItem(BuyableItem item)
     {
-        buyButtonText.text = skin.price + SceneLoader.VOL;
-        skinSetter = gameObject.GetComponent<SkinSetter>();
+        SaveLoad.data.actualSkin = (Skin)item;
     }
 
-	void OnGUI() {
-        buyButton.interactable = SkinBuyIsEnabled();
-        hidePanel.SetActive(HidePanelIsActive());
+    protected override BuyableItem actualItem()
+    {
+        return SaveLoad.data.actualSkin;
     }
 
-    private bool SkinBuyIsEnabled()
+    public override BuyableItem itemToBuy()
     {
-        return SaveLoad.data.sumOfScores >= skin.price && SaveLoad.data.actualSkin.id + 1 == skin.id;
+        return skin;
     }
 
-    public bool HidePanelIsActive()
+    protected override ICollection<BuyableItem> unlockedItemList()
     {
-        foreach (Skin tempSkin in SaveLoad.data.unlockedSkins)
-        {
-            if (tempSkin.id == skin.id)
-            {
-                return false;
-            }
-        }
-        return true;
-    }
-
-    public void BuySkin()
-    {
-        if (SkinBuyIsEnabled())
-        {
-            SaveLoad.data.unlockedSkins.Add(skin);
-            SaveLoad.data.sumOfScores -= skin.price;
-            SaveLoad.Save();
-
-            skinSetter.UseSkin();
-        }
+        return (ICollection<BuyableItem>)SaveLoad.data.unlockedSkins;
     }
 }

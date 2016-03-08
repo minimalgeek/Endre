@@ -45,10 +45,10 @@ GameObject:
   - 224: {fileID: 22421710}
   - 222: {fileID: 22239916}
   - 114: {fileID: 11450452}
-  - 114: {fileID: 11412248}
   - 114: {fileID: 11426876}
+  - 114: {fileID: 11443970}
   m_Layer: 5
-  m_Name: Skin
+  m_Name: BuyableSkinItem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -133,23 +133,6 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
---- !u!114 &11412248
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 123370}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3f7a72b30ca2e2748aa52128275d24e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  skin:
-    id: 0
-    price: 0
-  buyButton: {fileID: 11417330}
-  hidePanel: {fileID: 187022}
-  buyButtonText: {fileID: 11466926}
 --- !u!114 &11417330
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -189,8 +172,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11412248}
-        m_MethodName: BuySkin
+      - m_Target: {fileID: 11443970}
+        m_MethodName: BuyItem
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -213,7 +196,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a1679b853d55cf4a85b154a8a466b5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  useButton: {fileID: 0}
+--- !u!114 &11443970
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 123370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70f25acd251c8844da073687d5c7659c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buyButton: {fileID: 11417330}
+  hidePanel: {fileID: 187022}
+  buyButtonText: {fileID: 11466926}
+  skin:
+    id: 0
+    price: 0
 --- !u!114 &11448506
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -234,10 +233,10 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 21300000, guid: fb2c5dc5052119e42857f9ffc9e43a5c, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
+  m_Type: 3
+  m_PreserveAspect: 1
   m_FillCenter: 1
-  m_FillMethod: 4
+  m_FillMethod: 1
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
@@ -363,12 +362,12 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 0}
+  m_TargetGraphic: {fileID: 11448506}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 11426876}
-        m_MethodName: UseSkin
+        m_MethodName: UseItem
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

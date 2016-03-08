@@ -1,44 +1,28 @@
 ﻿using UnityEngine;
-using System.Collections;
-using UnityEngine.UI;
+using System.Collections.Generic;
+using System;
 
-public class WeaponBuy : MonoBehaviour
+public class WeaponBuy : Buy
 {
-
     public Weapon weapon;
 
-    public Button buyButton;
-    public GameObject hidePanel;
-    public Text buyButtonText;
-
-    void Start()
+    public override void SetActualItem(BuyableItem item)
     {
-        buyButtonText.text = weapon.price + SceneLoader.VOL;
+        SaveLoad.data.actualWeapon = (Weapon)item;
     }
 
-    void OnGUI()
+    protected override BuyableItem actualItem()
     {
-        buyButton.interactable = WeaponBuyIsEnabled();
-        hidePanel.SetActive(HidePanelIsActive());
+        return SaveLoad.data.actualWeapon;
     }
 
-    private bool WeaponBuyIsEnabled()
+    public override BuyableItem itemToBuy()
     {
-        return SaveLoad.data.sumOfScores >= weapon.price && SaveLoad.data.actualWeapon.id + 1 == weapon.id;
+        return weapon;
     }
 
-    private bool HidePanelIsActive()
+    protected override ICollection<BuyableItem> unlockedItemList()
     {
-        return weapon.id > SaveLoad.data.actualWeapon.id;
-    }
-
-    public void BuyWeapon()
-    {
-        if (WeaponBuyIsEnabled())
-        {
-            SaveLoad.data.actualWeapon = weapon;
-            SaveLoad.data.sumOfScores -= weapon.price;
-            SaveLoad.Save();
-        }
+        return (ICollection<BuyableItem>)SaveLoad.data.unlockedWeapons;
     }
 }

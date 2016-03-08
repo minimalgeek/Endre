@@ -20,7 +20,10 @@ public class HighScoreUI : MonoBehaviour {
                 }
             }
         }
+    }
 
+    void OnGUI()
+    {
         totalScoreNumber.GetComponent<Text>().text = SaveLoad.data.sumOfScores + SceneLoader.VOL;
     }
 	

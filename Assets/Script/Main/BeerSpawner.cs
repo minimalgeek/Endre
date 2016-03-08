@@ -33,8 +33,9 @@ public class SideGroup
 
 public class BeerSpawner : MonoBehaviour {
     
-    public GameObject objectToSpawn;
+    private GameObject objectToSpawn;
 
+    public GameObject[] bottlePrefabs;
     public int verticalForce;
     public int rotationForce;
     public float destroyTime;
@@ -45,7 +46,17 @@ public class BeerSpawner : MonoBehaviour {
     private long spawnedBeers = 0;
 
     void Start () {
-        
+        int choosenCharacterIdx = SaveLoad.data.actualWeapon.id;
+        string prefabNameToSearch = "Bottle" + choosenCharacterIdx;
+
+        foreach (GameObject obj in bottlePrefabs)
+        {
+            if (obj.name == prefabNameToSearch)
+            {
+                objectToSpawn = obj;
+                break;
+            }
+        }
     }
 
     void Update()

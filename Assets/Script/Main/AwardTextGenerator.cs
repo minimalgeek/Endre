@@ -11,8 +11,4 @@ public class AwardTextGenerator : MonoBehaviour {
 	void Start () {
         awardText.text = "\"" + awards[Random.Range(0, awards.Length)] + "\"";
 	}
-	
-	void Update () {
-	
-	}
 }

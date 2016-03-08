@@ -1,15 +1,14 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
 
 [System.Serializable]
 public class GameData {
 
     public int[] bestScores;
-    public long sumOfScores = 0;
+    public long sumOfScores = 2000000;
 
-    public ICollection<Skin> unlockedSkins;
-    public ICollection<Weapon> unlockedWeapons;
+    public ICollection<BuyableItem> unlockedSkins;
+    public ICollection<BuyableItem> unlockedWeapons;
 
     public Skin actualSkin;
     public Weapon actualWeapon;
@@ -19,8 +18,8 @@ public class GameData {
         actualSkin = new Skin();
         actualWeapon = new Weapon();
 
-        unlockedSkins = new List<Skin>();
-        unlockedWeapons = new List<Weapon>();
+        unlockedSkins = new List<BuyableItem>();
+        unlockedWeapons = new List<BuyableItem>();
 
         unlockedSkins.Add(actualSkin);
         unlockedWeapons.Add(actualWeapon);

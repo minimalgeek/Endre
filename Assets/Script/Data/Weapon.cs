@@ -2,17 +2,12 @@
 using System.Collections;
 
 [System.Serializable]
-public class Weapon
+public class Weapon : BuyableItem
 {
+    public int horizontalForce;
 
-    public int id;
-    public int price;
-    public long horizontalForce;
-
-    public Weapon()
+    public Weapon() : base()
     {
-        id = 0;
-        price = 0;
         horizontalForce = 1000;
     }
 }

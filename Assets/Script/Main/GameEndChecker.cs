@@ -4,12 +4,19 @@ using UnityEngine.UI;
 
 public class GameEndChecker : MonoBehaviour {
 
-    public GameObject ifYouAreDrunkDontSingPanel;
+    private const string DSP = "DontSingPanel";
+    private const string CANVAS = "Canvas";
+
+    private GameObject canvas;
+    private GameObject ifYouAreDrunkDontSingPanel;
     private PointController pointController;
     
     private bool failed;
 
 	void Start () {
+        failed = false;
+        canvas = GameObject.Find(CANVAS);
+        ifYouAreDrunkDontSingPanel = canvas.FindObject(DSP);
         ifYouAreDrunkDontSingPanel.SetActive(false);
         pointController = FindObjectOfType<PointController>();
     }
@@ -18,6 +25,7 @@ public class GameEndChecker : MonoBehaviour {
     {
         if (coll.gameObject.tag == "EndGameCollider" && !failed)
         {
+            failed = true;
             ifYouAreDrunkDontSingPanel.SetActive(true);
             pointController.DisableCollectingAndSubmitScore();
         }
