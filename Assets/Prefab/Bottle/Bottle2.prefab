@@ -11,6 +11,8 @@ GameObject:
   - 212: {fileID: 21218848}
   - 50: {fileID: 5066604}
   - 61: {fileID: 6142106}
+  - 61: {fileID: 6153958}
+  - 61: {fileID: 6174874}
   m_Layer: 0
   m_Name: Bottle2
   m_TagString: Untagged
@@ -25,8 +27,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 175988}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -4.191423, y: 0.33250877, z: 0}
+  m_LocalScale: {x: 0.96, y: 0.96, z: 0.96}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -58,9 +60,37 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_Offset: {x: 0, y: -0.05}
+  m_Offset: {x: 0.011900902, y: -0.06354666}
   serializedVersion: 2
-  m_Size: {x: 1.08, y: 2.27}
+  m_Size: {x: 0.47942019, y: 1.195569}
+--- !u!61 &6153958
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 175988}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0.0039668083, y: 0.83310974}
+  serializedVersion: 2
+  m_Size: {x: 1.1003282, y: 0.5440128}
+--- !u!61 &6174874
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 175988}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0.011901379, y: -0.9441905}
+  serializedVersion: 2
+  m_Size: {x: 0.9099045, y: 0.52814436}
 --- !u!212 &21218848
 SpriteRenderer:
   m_ObjectHideFlags: 1
