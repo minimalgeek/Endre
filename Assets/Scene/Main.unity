@@ -175,7 +175,7 @@ RectTransform:
   m_Father: {fileID: 1464130386}
   m_RootOrder: 0
   m_AnchorMin: {x: 0.5, y: 0.7}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0.95, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -10, y: -10}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -191,7 +191,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.16176471, g: 0.29411763, b: 0, a: 1}
+  m_Color: {r: 0.36862746, g: 0.18823531, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -317,14 +317,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.41176474, g: 0.25882354, b: 0, a: 1}
+  m_Color: {r: 0.5955882, g: 0.3743697, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 66e1bb24f31bad742a5ef58d3b46ab50, type: 3}
+  m_Sprite: {fileID: 21300002, guid: 692bda1d34805eb468a0b521994fa9ca, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -635,7 +635,7 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1464130386}
   m_RootOrder: 5
-  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMin: {x: 0.05, y: 0}
   m_AnchorMax: {x: 0.5, y: 0.4}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -10, y: -10}
@@ -652,7 +652,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.4117647, g: 0.25735295, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -876,7 +876,7 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1464130386}
   m_RootOrder: 1
-  m_AnchorMin: {x: 0, y: 0.7}
+  m_AnchorMin: {x: 0.05, y: 0.7}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -10, y: -10}
@@ -893,7 +893,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.16176471, g: 0.29411763, b: 0, a: 1}
+  m_Color: {r: 0.36862746, g: 0.18823531, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1057,7 +1057,6 @@ MonoBehaviour:
   - "Olyannak meg \xFAtyohattyel, ahogy semmelyik haver!"
   - "A sz\xEDv j\xF3katag f\xE9m, \xFAjra \xE9kra k\xE9m, \xFAjra \xE9k!"
   - "L\xE1stam mindenre v\xF6lkid\xE1m, szerelmem a m\xE1s villog\xE1ny!"
-  - "Egy vadonat\xFAj n\xF3taaaaaa az \xFAj lemezhez!"
   - "Vanded\xE9tet\xE9det a gy\u0171l\xF6let! Tang\xF6l\xE9det...."
   - "\xC9daporban, \xEDtaporban, vasvonalban Gy\xFAjt\xF3pontban! \xCDgy kell \xE9lnem!!!"
   - "\xC9szenl\xE9tben, k\xE9zenl\xE9tben, Vad\xE1ll\u0151tten n\xEDg\xE1tj\u0151szlen
@@ -1069,7 +1068,7 @@ MonoBehaviour:
   - "A fi\xFA m\xE9lyb\u0151l \xE9rkezett, ahol fi\xFA a m\xE9lyb\u0151l \xE9rkezett,
     ahol fi\xFA a m\xE9lyb\u0151l \xE9rkezett!"
   - "Ne \xE9nekeej\xE9 ha be vagy b*szva ne \xE9nekeej\xE9 b*zmeg!"
-  - "Ittva az ajt\xF3 itt nincs maegh\xEDv\xF3. Ittva az ajt\xF3 m\xE1rmegh\xEDv\xF3!"
+  - "Ittva az ajt\xF3 itt nincs megh\xEDv\xF3. Ittva az ajt\xF3 m\xE1rmegh\xEDv\xF3!"
   - "Nyitva egy b\xE1rmi b\xE1rh\xF3, egy nyitva egy m\xE1rh\xEDv\xF3!"
   - "Felp\xF6rg\xF6tt \xE9jjel ut\xE1n s\xE1padt hajnalom, t\xE1potut \xFCgyen-uty\xE1n
     h\xE1padt ajnalom."
@@ -1196,14 +1195,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.41176474, g: 0.25882354, b: 0, a: 1}
+  m_Color: {r: 0.5921569, g: 0.37254903, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 5ad9f7d6eb95c134db65ce7625e09014, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 692bda1d34805eb468a0b521994fa9ca, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1247,7 +1246,7 @@ RectTransform:
   m_Father: {fileID: 1464130386}
   m_RootOrder: 4
   m_AnchorMin: {x: 0.5, y: 0}
-  m_AnchorMax: {x: 1, y: 0.4}
+  m_AnchorMax: {x: 0.95, y: 0.4}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -10, y: -10}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -1263,7 +1262,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.4117647, g: 0.25735295, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1521,7 +1520,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -60, y: -60}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1179599369
 MonoBehaviour:
@@ -1702,7 +1701,7 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1464130386}
   m_RootOrder: 3
-  m_AnchorMin: {x: 0, y: 0.4}
+  m_AnchorMin: {x: 0.05, y: 0.4}
   m_AnchorMax: {x: 0.5, y: 0.7}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -10, y: -10}
@@ -1719,7 +1718,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.16176471, g: 0.29411763, b: 0, a: 1}
+  m_Color: {r: 0.36862746, g: 0.18823531, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1998,15 +1997,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 1634e2c4b2e455148a9cf6a826375ec2, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -2345,7 +2344,7 @@ RectTransform:
   m_Father: {fileID: 1464130386}
   m_RootOrder: 2
   m_AnchorMin: {x: 0.5, y: 0.4}
-  m_AnchorMax: {x: 1, y: 0.7}
+  m_AnchorMax: {x: 0.95, y: 0.7}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -10, y: -10}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -2361,7 +2360,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.16176471, g: 0.29411763, b: 0, a: 1}
+  m_Color: {r: 0.36862746, g: 0.18823531, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
