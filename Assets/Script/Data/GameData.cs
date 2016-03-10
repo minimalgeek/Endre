@@ -5,7 +5,7 @@ using System.Collections.Generic;
 public class GameData {
 
     public int[] bestScores;
-    public long sumOfScores = 2000000;
+    public long sumOfScores;
 
     public ICollection<BuyableItem> unlockedSkins;
     public ICollection<BuyableItem> unlockedWeapons;

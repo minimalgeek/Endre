@@ -31,9 +31,15 @@ public class SideGroup
     }
 }
 
-public class BeerSpawner : MonoBehaviour {
-    
+public class InputManager : MonoBehaviour
+{
+
     private GameObject objectToSpawn;
+    private GameObject canvas;
+    private PointController pointController;
+
+    public LayerMask layerToDestroy;
+    public GameObject flyingText;
 
     public GameObject[] bottlePrefabs;
     public int verticalForce;
@@ -45,7 +51,11 @@ public class BeerSpawner : MonoBehaviour {
 
     private long spawnedBeers = 0;
 
-    void Start () {
+    void Start()
+    {
+        canvas = GameObject.Find("Canvas");
+        pointController = FindObjectOfType<PointController>();
+
         int choosenCharacterIdx = SaveLoad.data.actualWeapon.id;
         string prefabNameToSearch = "Bottle" + choosenCharacterIdx;
 
@@ -103,15 +113,31 @@ public class BeerSpawner : MonoBehaviour {
         }
     }
 
-    private void CheckTouch(Vector2 touchPos)
+    private void CheckTouch(Vector2 pos)
     {
-        SideGroup group = touchPos.x < Screen.width / 2 ? left : right;
-        group.Fire();
-        InitBottle(group, touchPos);
-        spawnedBeers++;
+        Vector3 wp = Camera.main.ScreenToWorldPoint(pos);
+        Vector2 touchPos = new Vector2(wp.x, wp.y);
+
+        Collider2D hit = Physics2D.OverlapPoint(touchPos, layerToDestroy);
+        if (hit)
+        {
+            Destroy(hit.gameObject);
+
+            GameObject textObj = (GameObject)Instantiate(flyingText, pos, Quaternion.identity);
+            textObj.transform.SetParent(canvas.transform);
+            textObj.GetComponent<RisingText>().Init(AddCoinsAndCreateText());
+        }
+        else
+        {
+            SideGroup group = pos.x < Screen.width / 2 ? left : right;
+            group.Fire();
+            InitBottle(group, pos);
+            spawnedBeers++;
+        }
     }
 
-    private void InitBottle(SideGroup group, Vector2 touchPos) {
+    private void InitBottle(SideGroup group, Vector2 touchPos)
+    {
         Vector2 posInit = group.spawner.transform.position;
         posInit.y = Camera.main.ScreenToWorldPoint(touchPos).y;
 
@@ -126,5 +152,11 @@ public class BeerSpawner : MonoBehaviour {
         body.AddRelativeForce(new Vector2(group.directionMultiplier * SaveLoad.data.actualWeapon.horizontalForce, verticalForce));
         body.AddTorque(group.directionMultiplier * rotationForce);
     }
-    
+
+    private string AddCoinsAndCreateText()
+    {
+        float added = pointController.AddPoints();
+        return "+" + added + " Ft";
+    }
+
 }

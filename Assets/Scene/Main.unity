@@ -542,6 +542,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e60820ffd9f632a4f97bf66f4dada02c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  layerToDestroy:
+    serializedVersion: 2
+    m_Bits: 512
+  flyingText: {fileID: 115764, guid: d04066282f9c7cf40b62db8d32e94311, type: 2}
   bottlePrefabs:
   - {fileID: 175988, guid: ae33691debfb08e4fbaaa6a57fdf741e, type: 2}
   - {fileID: 175988, guid: c10907236fe7fe7458fce47b8545bc80, type: 2}

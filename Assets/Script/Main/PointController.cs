@@ -15,11 +15,11 @@ public class PointController : MonoBehaviour {
 
     private float points;
     private bool shouldCollect = true;
-    private BeerSpawner spawner;
+    private InputManager inputManager;
     
     void Start () {
         points = 0;
-        spawner = FindObjectOfType<BeerSpawner>();
+        inputManager = FindObjectOfType<InputManager>();
     }
 	
 	// Update is called once per frame
@@ -40,7 +40,7 @@ public class PointController : MonoBehaviour {
         if (shouldCollect)
         {
             int pointsCollected = (int)points;
-            float multiplier = spawner.CalculateMultiplier();
+            float multiplier = inputManager.CalculateMultiplier();
             int sumPoints = (int)(pointsCollected * multiplier);
 
             endPointsText.text = pointsCollected + SceneLoader.VOL;
