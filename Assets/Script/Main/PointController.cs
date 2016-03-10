@@ -10,6 +10,9 @@ public class PointController : MonoBehaviour {
     public Text sumPointsText;
     public GameObject pointPanel;
 
+    public float steelHeartPointsToAdd = 1500f;
+    public float steelheartIncrement = 500f;
+
     private float points;
     private bool shouldCollect = true;
     private BeerSpawner spawner;
@@ -50,5 +53,13 @@ public class PointController : MonoBehaviour {
             pointPanel.SetActive(false);
             shouldCollect = false;
         }
+    }
+
+    public float AddPoints()
+    {
+        steelHeartPointsToAdd += steelheartIncrement;
+        points += steelHeartPointsToAdd;
+
+        return steelHeartPointsToAdd;
     }
 }

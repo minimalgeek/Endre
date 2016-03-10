@@ -1022,6 +1022,8 @@ MonoBehaviour:
   beerMultiplierText: {fileID: 1638002538}
   sumPointsText: {fileID: 835109182}
   pointPanel: {fileID: 2131096331}
+  steelHeartPointsToAdd: 300
+  steelheartIncrement: 200
 --- !u!4 &682532842
 Transform:
   m_ObjectHideFlags: 0
@@ -1558,6 +1560,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1254919627}
+  - 114: {fileID: 1254919628}
   m_Layer: 0
   m_Name: SteelHeartInitializer
   m_TagString: Untagged
@@ -1577,6 +1580,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 9
+--- !u!114 &1254919628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1254919626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c4f7ae8c67e8e64188d52a677fde2ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  secondsUntilFirstHeart: 3
+  minSeconds: 2
+  maxSeconds: 6
+  heartAliveTime: 1.5
+  steelHeart: {fileID: 143850, guid: cfb734d2f222867439d2df01870f4461, type: 2}
 --- !u!1 &1271733634
 GameObject:
   m_ObjectHideFlags: 0
