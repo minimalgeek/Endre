@@ -1006,7 +1006,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11443970, guid: 84cc75d9b27a33340ae28db2062150a0, type: 2}
       propertyPath: skin.price
-      value: 500000
+      value: 300000
       objectReference: {fileID: 0}
     - target: {fileID: 11448506, guid: 84cc75d9b27a33340ae28db2062150a0, type: 2}
       propertyPath: m_Sprite
@@ -1969,7 +1969,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11443970, guid: 84cc75d9b27a33340ae28db2062150a0, type: 2}
       propertyPath: skin.price
-      value: 150000
+      value: 110000
       objectReference: {fileID: 0}
     - target: {fileID: 11448506, guid: 84cc75d9b27a33340ae28db2062150a0, type: 2}
       propertyPath: m_Sprite
@@ -2089,7 +2089,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11443970, guid: 84cc75d9b27a33340ae28db2062150a0, type: 2}
       propertyPath: skin.price
-      value: 60000
+      value: 50000
       objectReference: {fileID: 0}
     - target: {fileID: 11448506, guid: 84cc75d9b27a33340ae28db2062150a0, type: 2}
       propertyPath: m_Sprite
@@ -2470,7 +2470,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "L\xE1lykolj b\xE1ttya/n\xE9nje!"
+  m_Text: "L\xE1lykolj b\xE1ttya/n\xE9nnye!"
 --- !u!222 &1225984052
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2578,7 +2578,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11443970, guid: 84cc75d9b27a33340ae28db2062150a0, type: 2}
       propertyPath: skin.price
-      value: 300000
+      value: 190000
       objectReference: {fileID: 0}
     - target: {fileID: 11448506, guid: 84cc75d9b27a33340ae28db2062150a0, type: 2}
       propertyPath: m_Sprite
@@ -3037,7 +3037,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11441302, guid: ab41ab54f000c95479c0982afc79731e, type: 2}
       propertyPath: weapon.price
-      value: 500000
+      value: 300000
       objectReference: {fileID: 0}
     - target: {fileID: 11441302, guid: ab41ab54f000c95479c0982afc79731e, type: 2}
       propertyPath: weapon.horizontalForce
@@ -3342,7 +3342,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11441302, guid: ab41ab54f000c95479c0982afc79731e, type: 2}
       propertyPath: weapon.price
-      value: 300000
+      value: 190000
       objectReference: {fileID: 0}
     - target: {fileID: 11441302, guid: ab41ab54f000c95479c0982afc79731e, type: 2}
       propertyPath: weapon.horizontalForce
@@ -3931,7 +3931,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11441302, guid: ab41ab54f000c95479c0982afc79731e, type: 2}
       propertyPath: weapon.price
-      value: 60000
+      value: 50000
       objectReference: {fileID: 0}
     - target: {fileID: 11441302, guid: ab41ab54f000c95479c0982afc79731e, type: 2}
       propertyPath: weapon.horizontalForce
@@ -4039,7 +4039,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11441302, guid: ab41ab54f000c95479c0982afc79731e, type: 2}
       propertyPath: weapon.price
-      value: 150000
+      value: 110000
       objectReference: {fileID: 0}
     - target: {fileID: 11441302, guid: ab41ab54f000c95479c0982afc79731e, type: 2}
       propertyPath: weapon.horizontalForce
