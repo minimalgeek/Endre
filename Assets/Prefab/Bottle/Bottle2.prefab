@@ -40,7 +40,7 @@ Rigidbody2D:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 175988}
   m_UseAutoMass: 0
-  m_Mass: 2.7
+  m_Mass: 2.5
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -130,7 +130,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 0}
       propertyPath: m_Mass
-      value: 2.3
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: m_SortingOrder

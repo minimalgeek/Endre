@@ -807,7 +807,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   verticalForce: 1000
   initialHorizontalForce: 500
-  horizontalForceIncrement: 85
+  horizontalForceIncrement: 90
   forceApplyTime: 2
 --- !u!114 &11491468
 MonoBehaviour:
@@ -1338,7 +1338,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: horizontalForceIncrement
-      value: 85
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: verticalForce
