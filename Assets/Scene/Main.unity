@@ -1597,7 +1597,7 @@ MonoBehaviour:
   secondsUntilFirstHeart: 3
   minSeconds: 2
   maxSeconds: 6
-  heartAliveTime: 1.5
+  heartAliveTime: 1.3
   steelHeart: {fileID: 143850, guid: cfb734d2f222867439d2df01870f4461, type: 2}
 --- !u!1 &1271733634
 GameObject:
