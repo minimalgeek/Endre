@@ -1006,7 +1006,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11443970, guid: 84cc75d9b27a33340ae28db2062150a0, type: 2}
       propertyPath: skin.price
-      value: 260000
+      value: 500000
       objectReference: {fileID: 0}
     - target: {fileID: 11448506, guid: 84cc75d9b27a33340ae28db2062150a0, type: 2}
       propertyPath: m_Sprite
@@ -1969,7 +1969,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11443970, guid: 84cc75d9b27a33340ae28db2062150a0, type: 2}
       propertyPath: skin.price
-      value: 100000
+      value: 150000
       objectReference: {fileID: 0}
     - target: {fileID: 11448506, guid: 84cc75d9b27a33340ae28db2062150a0, type: 2}
       propertyPath: m_Sprite
@@ -2089,7 +2089,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11443970, guid: 84cc75d9b27a33340ae28db2062150a0, type: 2}
       propertyPath: skin.price
-      value: 40000
+      value: 60000
       objectReference: {fileID: 0}
     - target: {fileID: 11448506, guid: 84cc75d9b27a33340ae28db2062150a0, type: 2}
       propertyPath: m_Sprite
@@ -2401,11 +2401,6 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 11470772, guid: ab41ab54f000c95479c0982afc79731e, type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 8a8f60da7e053b247ba38e14fcd705db,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ab41ab54f000c95479c0982afc79731e, type: 2}
   m_IsPrefabParent: 0
@@ -2583,7 +2578,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11443970, guid: 84cc75d9b27a33340ae28db2062150a0, type: 2}
       propertyPath: skin.price
-      value: 170000
+      value: 300000
       objectReference: {fileID: 0}
     - target: {fileID: 11448506, guid: 84cc75d9b27a33340ae28db2062150a0, type: 2}
       propertyPath: m_Sprite
@@ -3042,7 +3037,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11441302, guid: ab41ab54f000c95479c0982afc79731e, type: 2}
       propertyPath: weapon.price
-      value: 260000
+      value: 500000
       objectReference: {fileID: 0}
     - target: {fileID: 11441302, guid: ab41ab54f000c95479c0982afc79731e, type: 2}
       propertyPath: weapon.horizontalForce
@@ -3347,7 +3342,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11441302, guid: ab41ab54f000c95479c0982afc79731e, type: 2}
       propertyPath: weapon.price
-      value: 170000
+      value: 300000
       objectReference: {fileID: 0}
     - target: {fileID: 11441302, guid: ab41ab54f000c95479c0982afc79731e, type: 2}
       propertyPath: weapon.horizontalForce
@@ -3759,10 +3754,6 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 11450452, guid: 84cc75d9b27a33340ae28db2062150a0, type: 2}
-      propertyPath: m_Color.a
-      value: 0.8627451
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 84cc75d9b27a33340ae28db2062150a0, type: 2}
   m_IsPrefabParent: 0
@@ -3940,7 +3931,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11441302, guid: ab41ab54f000c95479c0982afc79731e, type: 2}
       propertyPath: weapon.price
-      value: 40000
+      value: 60000
       objectReference: {fileID: 0}
     - target: {fileID: 11441302, guid: ab41ab54f000c95479c0982afc79731e, type: 2}
       propertyPath: weapon.horizontalForce
@@ -4048,7 +4039,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11441302, guid: ab41ab54f000c95479c0982afc79731e, type: 2}
       propertyPath: weapon.price
-      value: 100000
+      value: 150000
       objectReference: {fileID: 0}
     - target: {fileID: 11441302, guid: ab41ab54f000c95479c0982afc79731e, type: 2}
       propertyPath: weapon.horizontalForce
