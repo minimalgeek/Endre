@@ -1026,8 +1026,8 @@ MonoBehaviour:
   beerMultiplierText: {fileID: 1638002538}
   sumPointsText: {fileID: 835109182}
   pointPanel: {fileID: 2131096331}
-  steelHeartPointsToAdd: 300
-  steelheartIncrement: 200
+  steelHeartPointsToAdd: 200
+  steelheartIncrement: 100
 --- !u!4 &682532842
 Transform:
   m_ObjectHideFlags: 0
